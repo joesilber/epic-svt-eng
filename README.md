@@ -18,5 +18,5 @@ In case of a conflict between a value found in this table and one found in some 
 
 # Citations
 
-[^air-sys-calc-v19]: [ePIC_SVT_cooling_air_flow_stages_-_v19.xlsx](docs/ePIC_SVT_cooling_air_flow_stages_-_v19.xlsx)
-[^air-plant-spec-v3]: [ePIC_SVT_air_supply_plant_reqts_-_v3.xlsx](docs/ePIC_SVT_air_supply_plant_reqts_-_v3.xlsx)
+[^air-sys-calc-v19]: [ePIC_SVT_cooling_air_flow_stages_-_v19.xlsx](spreadsheets/ePIC_SVT_cooling_air_flow_stages_-_v19.xlsx)
+[^air-plant-spec-v3]: [ePIC_SVT_air_supply_plant_reqts_-_v3.xlsx](spreadsheets/ePIC_SVT_air_supply_plant_reqts_-_v3.xlsx)
