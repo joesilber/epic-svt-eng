@@ -16,6 +16,12 @@ In case of a conflict between a value found in this table and one found in some 
 | Nominal air pressure at subdetector inlets | 0.44	bar (6.4 psi) gauge] | [^air-plant-spec-v3] | |
 
 
+# Coordinate systems
+
+Module and global coordinates for the SVT Disks are described here:
+[pptx](./presentations/2026-10-10%20Module%20Definitions.pptx)
+[pdf](./presentations/2026-10-10%20Module%20Definitions.pdf)
+
 # Citations
 
 [^air-sys-calc-v19]: [ePIC_SVT_cooling_air_flow_stages_-_v19.xlsx](./spreadsheets/ePIC_SVT_cooling_air_flow_stages_-_v19.xlsx)
