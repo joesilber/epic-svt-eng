@@ -1,0 +1,14 @@
+# Build outputs (use /* so children can be whitelisted below)
+bin/*
+obj/
+
+# ...but keep the built executables in the repo for convenience
+!bin/Debug/
+!bin/Debug/net48/
+!bin/Debug/net48/PatternTool.exe
+!bin/Release/
+!bin/Release/net48/
+!bin/Release/net48/PatternTool.exe
+
+# SOLIDWORKS lock files (leftover when a document was open or a session crashed)
+~$*

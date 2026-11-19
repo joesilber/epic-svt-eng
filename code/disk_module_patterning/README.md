@@ -36,9 +36,18 @@ A set of example / test files are provided [here](./examples).
 | ED1_modules_cad_2026-11-11.csv | Pattern file, specifying locations, orientations, configurations, and ids. |
 
 ## Compiling
-If you were not provided a working `.exe` or need to recompile for some reason, do as follows.
+If you were not provided a working `.exe` or need to recompile for some reason, do as follows. (Alternately you can run in the VS Code debugger, see below.)
 
-Run `dotnet build -c Release` in your terminal, and it will generate a `.exe` that you can run whenever you need it.
+1. You must have the [.NET SDK](https://dotnet.microsoft.com/download) installed on your system to compile the code.
 
-As of 2026-11-18, Joe Silber was doing this in VS Code and experiencing minimal setup or wasted time.
+2. Go to this repo folder in your terminal where the `.cs` and `.csproj` files live.
+
+3. Do this: `dotnet build -c Release`
+
+It will generate a `.exe` that you can run whenever you need it.
+
+As of 2026-11-18, I was doing the compilation in VS Code, using .NET version 11.0. 
+
+## Debugging
+I installed the **C# Dev Kit** extension, which gives VS Code debugging support. Make sure SOLIDWORKS is already running in the background before you start, because your code immediately tries to connect to it and will exit if it is closed. Then, go to `Patternscript.cs` and press F5 on your keyboard or click the Run and Debug icon on the left sidebar and start the debugger.
 
