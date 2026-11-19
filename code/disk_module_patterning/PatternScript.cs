@@ -13,12 +13,13 @@ using SolidWorks.Interop.swconst;
 
 class Program
 {
+    // Number of rows offered by the "First N rows" quick-test button in the
+    // startup dialog. Automatically capped to the CSV's actual row count.
+    const int MaxRowsForTest = 10;
+
     [STAThread] // Required for OpenFileDialog
     static void Main()
     {
-        // 0. Ask how many rows to process
-        int maxRows = AskRowCount();
-        if (maxRows < 0) return; // user closed the dialog
         // 1. Prompt for input files
         Log("Showing CSV file dialog...");
         string csvPath = GetFile("Select Pattern CSV File", "CSV Files (*.csv)|*.csv");
@@ -38,6 +39,10 @@ class Program
         var lines = File.ReadAllLines(csvPath).Where(l => !string.IsNullOrWhiteSpace(l)).ToArray();
         Log($"CSV read OK: {lines.Length} lines (including header).");
         var headers = lines[0].Split(',').Select(h => h.Trim()).ToList();
+
+        // Ask how many rows to process (now that we know the CSV row count)
+        int maxRows = AskRowCount(lines.Length - 1);
+        if (maxRows < 0) return; // user closed the dialog
 
         int C(string name) => headers.IndexOf(name); // Helper to get column index
         
@@ -211,6 +216,59 @@ class Program
 
         Log("Rebuilding assembly...");
         asmDoc.EditRebuild3();
+
+        // Set the view to shaded (no edges)
+        Log("Setting view mode to shaded...");
+        try
+        {
+            // Direct compile-time call: with EmbedInteropTypes the compiler embeds
+            // any interop member referenced in source, which is more reliable than
+            // dynamic/reflection dispatch on SOLIDWORKS COM objects (which produced
+            // misleading DISP_E_BADINDEX errors and no-op property getters).
+            asmDoc.ViewDisplayShaded();
+            Log("View mode set to shaded.");
+        }
+        catch (Exception ex)
+        {
+            Log($"Could not set shaded view mode: {ex.Message}");
+        }
+
+        // Hide sketches only (diagnostic step toward "Hide All Types").
+        // Operate on the ACTIVE document object obtained from SOLIDWORKS itself,
+        // since view-visibility commands act on the active view of the active doc.
+        Log("Hiding sketches...");
+        try
+        {
+            var activeDoc = (ModelDoc2)swApp.ActiveDoc;
+            Log($"Active document: '{(activeDoc != null ? activeDoc.GetTitle() : "<none>")}'");
+            if (activeDoc != null)
+            {
+                activeDoc.BlankRefGeom(); // try full "Hide All Types" on the active doc object
+                activeDoc.GraphicsRedraw2();
+                Log("BlankRefGeom called on active document.");
+            }
+        }
+        catch (Exception ex)
+        {
+            Log($"Could not hide sketches: {ex.Message}");
+        }
+
+        // Zoom to fit
+        Log("Zoom to fit...");
+        try
+        {
+            var activeDoc = (ModelDoc2)swApp.ActiveDoc;
+            if (activeDoc != null)
+            {
+                activeDoc.ViewZoomtofit2();
+                Log("Zoom to fit done.");
+            }
+        }
+        catch (Exception ex)
+        {
+            Log($"Could not zoom to fit: {ex.Message}");
+        }
+
         Log("Pattern generation complete!");
     }
 
@@ -248,10 +306,12 @@ class Program
     }
 
     // Startup dialog: choose to process all CSV rows or just the first 10 (for quick tests).
-    // Returns 0 for all rows, 10 for the test run, or -1 if the user closed/cancelled.
-    static int AskRowCount()
+    // Returns 0 for all rows, the test-row count for the test run, or -1 if the user
+    // closed/cancelled. totalRows is the number of data rows in the CSV, so the test
+    // button can adapt if the file has fewer than 10 rows.
+    static int AskRowCount(int totalRows)
     {
-        const int TestRows = 10;
+        int testCount = Math.Min(MaxRowsForTest, totalRows);
         int choice = -1;
 
         using (var dlg = new Form
@@ -282,14 +342,14 @@ class Program
 
             var testButton = new Button
             {
-                Text = "First 10 rows",
+                Text = $"First {testCount} rows",
                 DialogResult = DialogResult.No,
                 Location = new System.Drawing.Point(165, 45),
                 Size = new System.Drawing.Size(130, 30)
             };
 
             allButton.Click += (s, e) => { choice = 0; dlg.Close(); };
-            testButton.Click += (s, e) => { choice = TestRows; dlg.Close(); };
+            testButton.Click += (s, e) => { choice = testCount; dlg.Close(); };
 
             dlg.Controls.Add(label);
             dlg.Controls.Add(allButton);
