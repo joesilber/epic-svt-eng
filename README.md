@@ -17,12 +17,14 @@ In case of a conflict between a value found in this table and one found in some 
 
 
 # Coordinate systems
-
 Module and global coordinates for the SVT Disks are described here:
 [pptx](./presentations/2026-10-10%20Module%20Definitions.pptx), 
 [pdf](./presentations/2026-10-10%20Module%20Definitions.pdf)
 
-# Citations
+# Module layout ("tiling")
+Code for placing and orienting modules spatially in 3D CAD is [here](./code/disk_module_patterning/).
+This code is specfic to the Solidworks API. It was tested and used primarily in Solidworks version 2024.
 
+# Citations
 [^air-sys-calc-v19]: [ePIC_SVT_cooling_air_flow_stages_-_v19.xlsx](./spreadsheets/ePIC_SVT_cooling_air_flow_stages_-_v19.xlsx)
 [^air-plant-spec-v3]: [ePIC_SVT_air_supply_plant_reqts_-_v3.xlsx](./spreadsheets/ePIC_SVT_air_supply_plant_reqts_-_v3.xlsx)
