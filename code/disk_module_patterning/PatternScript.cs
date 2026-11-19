@@ -1,3 +1,13 @@
+// PatternScript.cs
+// ----------------
+// Compilation produces a standalone executable that reads a spreadsheet to generate a customized pattern
+// of a subassembly in SOLIDWORKS. For each row in the CSV, the tool inserts the subassembly, selects the
+// correct configuration, applies rotations and translations, renames the instance in the Feature Tree, and fixes
+// it in place.
+//
+// Code was initially generated 2026-11-18 by Joe Silber (LBNL) using Gemini Pro initially, and then debugging
+// and feature completion using LBNL cborg-coder.
+//
 // This file contains the entire script. It prompts for the files, dynamically finds the column indexes based on
 // your exact header names, creates the new assembly, resolves configurations, places and names the instances,
 // applies the rotation and translation, and locks them in place.
