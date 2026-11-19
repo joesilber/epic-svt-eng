@@ -13,6 +13,13 @@ using SolidWorks.Interop.swconst;
 
 class Program
 {
+    // ==================== DEBUG SETTINGS ====================
+    // Max number of CSV data rows to pattern. Set to 0 (or any value >= number of
+    // rows) to pattern everything. Use a small number (e.g. 3) to test quickly
+    // without waiting for the whole pattern to build.
+    const int MaxRowsToPattern = 0;
+    // ========================================================
+
     [STAThread] // Required for OpenFileDialog
     static void Main()
     {
@@ -117,10 +124,17 @@ class Program
         try
         {
             Log($"Processing {lines.Length - 1} CSV rows...");
-            for (int i = 1; i < lines.Length; i++)
+            int lastRow = lines.Length - 1;
+            if (MaxRowsToPattern > 0 && MaxRowsToPattern < lastRow)
+            {
+                lastRow = MaxRowsToPattern;
+                Log($"DEBUG LIMIT: patterning only the first {MaxRowsToPattern} data rows.");
+            }
+
+            for (int i = 1; i <= lastRow; i++)
             {
                 var row = lines[i].Split(',');
-                Log($"Row {i}/{lines.Length - 1}: type_id={row[C("type_id")]}");
+                Log($"Row {i}/{lastRow}: type_id={row[C("type_id")]}");
 
                 // Find matching configuration by checking if type_id is a substring
                 string typeId = row[C("type_id")];
@@ -134,11 +148,33 @@ class Program
 
                 if (comp == null) continue;
 
-                // Rename instance in feature tree (SOLIDWORKS will still append <1>, <2> etc. to guarantee uniqueness)
+                // Rename the component instance in the feature tree.
+                // NOTE: the name must NOT end in "-<digits>" - SOLIDWORKS parses a
+                // trailing dash-number as the instance suffix and strips it from the
+                // base name (e.g. "..._Pos-1" becomes "..._Pos"). Hence "Pos{xId}".
                 string diskId = row[C("disk_id")];
                 string rowId = row[C("row_id")];
                 string xId = row[C("x_id")];
-                comp.Name2 = $"{baseName} Disk-{diskId} Row-{rowId} Position-{xId}";
+                string newName = $"{typeId}_Disk{diskId}_Row{rowId}_Pos{xId}";
+
+                // Rename the component's feature in the tree directly (the component
+                // feature's name IS the component name). Component2.Name2 is unreliable
+                // on freshly inserted components, so we go through the feature.
+                string actualName = comp.Name2;
+                try
+                {
+                    Feature feat = (Feature)asmDoc.FirstFeature();
+                    while (feat != null)
+                    {
+                        if (feat.Name == actualName) { feat.Name = newName; break; }
+                        feat = (Feature)feat.GetNextFeature();
+                    }
+                    Log($"Row {i}: renamed '{actualName}' -> '{comp.Name2}'");
+                }
+                catch (Exception ex)
+                {
+                    Log($"Row {i}: rename failed: {ex.Message}");
+                }
 
                 // Parse and convert units (deg to rad, mm to m)
                 double rx = D(row[C("Rx_deg")]) * Math.PI / 180.0;
@@ -188,12 +224,19 @@ class Program
         Console.Out.Flush();
     }
 
-    // Helper to open file dialogs
+    // Helper to open file dialogs, forced to appear on top of all other windows
+    // (a console app has no owner window, so dialogs can otherwise hide behind
+    // SOLIDWORKS / VS Code).
     static string GetFile(string title, string filter)
     {
+        using (var owner = new Form { TopMost = true, ShowInTaskbar = false, Opacity = 0 })
         using (var ofd = new OpenFileDialog { Title = title, Filter = filter })
         {
-            return ofd.ShowDialog() == DialogResult.OK ? ofd.FileName : null;
+            owner.Show();
+            owner.Focus();
+            var result = ofd.ShowDialog(owner);
+            owner.Close();
+            return result == DialogResult.OK ? ofd.FileName : null;
         }
     }
 
