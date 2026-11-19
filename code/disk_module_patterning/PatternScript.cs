@@ -28,7 +28,8 @@ class Program
         SetLogFolder(Path.GetDirectoryName(csvPath));
 
         Log("Showing subassembly file dialog... (if this seems stuck, check for a hidden dialog window)");
-        string subAssyPath = GetFile("Select Subassembly or Part to Pattern", "SOLIDWORKS Assembly (*.sldasm)|*.sldasm|SOLIDWORKS Part (*.sldprt)|*.sldprt");
+        string subAssyPath = GetFile("Select Subassembly or Part to Pattern",
+            "All SOLIDWORKS Files (*.sldasm;*.sldprt)|*.sldasm;*.sldprt|SOLIDWORKS Assembly (*.sldasm)|*.sldasm|SOLIDWORKS Part (*.sldprt)|*.sldprt");
         if (string.IsNullOrEmpty(subAssyPath)) return;
         Log($"Subassembly selected: {subAssyPath}");
 
