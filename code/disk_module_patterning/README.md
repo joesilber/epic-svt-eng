@@ -16,16 +16,28 @@ The tool looks for specific column headers to map the data (column order does no
 * `type_id`: A string that matches (or is a substring of) the target configuration name in the subassembly.
 * `Rx_deg`, `Ry_deg`, `Rz_deg`: Rotations in degrees.
 * `x_mm`, `y_mm`, `z_mm`: Translations in millimeters.
-* `disk_id`, `row_id`, `x_id`: Used to generate the Feature Tree name for the instance (e.g., `SubAssyName Disk-1 Row-2 Position-3`).
+* `disk_id`, `row_id`, `x_id`: Used to generate the Feature Tree name for the instance (e.g., `B601_Disk3_Row0_Pos1`).
 
 *Note: Any additional columns in your CSV (like `face_id`) will be safely ignored.*
 
 ## Usage
 1. Ensure SOLIDWORKS is running.
-2. Run the compiled `.exe`. 
+2. Run the compiled `.exe`.
 3. A file dialog will prompt you to select your **CSV data file**.
-4. A second dialog will prompt you to select the **.SLDASM file** you want to pattern.
-5. The tool will automatically create a new assembly, process the CSV, and build the pattern. 
+4. A dialog will ask how many rows to process: **All rows**, or **First 10 rows** (quick test; the count is capped to the CSV's actual row count).
+5. A second dialog will prompt you to select the **.SLDASM or .SLDPRT file** that you want to pattern.
+6. The tool will automatically create a new assembly, process the CSV, and build the pattern.
+
+### Component naming
+Each instance is renamed in the Feature Tree to `<type_id>_Disk<disk_id>_Row<row_id>_Pos<x_id>` (SOLIDWORKS appends its own `<1>`, `<2>`... instance suffix, which cannot be changed). Note the name deliberately avoids a trailing dash-number (e.g. `Pos-1`), because SOLIDWORKS would interpret that as the instance suffix and strip it. (This doesn't change the file name of the component.)
+
+### Logging
+Every run writes a timestamped log file `pattern_run_log_<date>_<time>.txt` into the same folder as the selected CSV file, containing the same output shown in the console.
+
+### Known limitations
+* The default assembly template preference in SOLIDWORKS must be valid; if it is missing, the tool falls back to searching the configured template folders for an `.asmdot` file.
+* If the subassembly is already open in SOLIDWORKS (or a stale `~$` lock file exists), opening it can stall. Close the document / delete the lock file first.
+* The view is set to shaded at the end of the run.
 
 ## Example files
 A set of example / test files are provided [here](./examples).
