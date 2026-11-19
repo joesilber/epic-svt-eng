@@ -70,4 +70,5 @@ I installed the **C# Dev Kit** extension, which gives VS Code debugging support.
 
 - [ ] Support multiple input pattern files for multiple disks in one batch.
 - [ ] Resolve the `x_id` vs `mod_index` vs `Pos` question for identifying modules along a given row.
+- [ ] Possibly: handle case where you pattern such that `x_mm`, `y_mm`, `z_mm` correspond to a different reference point in the subcomponent than its origin. Probably by providing the script with the name of the alternate point.
 
