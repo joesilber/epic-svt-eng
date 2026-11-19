@@ -13,21 +13,18 @@ using SolidWorks.Interop.swconst;
 
 class Program
 {
-    // ==================== DEBUG SETTINGS ====================
-    // Max number of CSV data rows to pattern. Set to 0 (or any value >= number of
-    // rows) to pattern everything. Use a small number (e.g. 3) to test quickly
-    // without waiting for the whole pattern to build.
-    const int MaxRowsToPattern = 0;
-    // ========================================================
-
     [STAThread] // Required for OpenFileDialog
     static void Main()
     {
+        // 0. Ask how many rows to process
+        int maxRows = AskRowCount();
+        if (maxRows < 0) return; // user closed the dialog
         // 1. Prompt for input files
         Log("Showing CSV file dialog...");
         string csvPath = GetFile("Select Pattern CSV File", "CSV Files (*.csv)|*.csv");
         if (string.IsNullOrEmpty(csvPath)) return;
         Log($"CSV selected: {csvPath}");
+        SetLogFolder(Path.GetDirectoryName(csvPath));
 
         Log("Showing subassembly file dialog... (if this seems stuck, check for a hidden dialog window)");
         string subAssyPath = GetFile("Select Subassembly or Part to Pattern", "SOLIDWORKS Assembly (*.sldasm)|*.sldasm|SOLIDWORKS Part (*.sldprt)|*.sldprt");
@@ -125,10 +122,10 @@ class Program
         {
             Log($"Processing {lines.Length - 1} CSV rows...");
             int lastRow = lines.Length - 1;
-            if (MaxRowsToPattern > 0 && MaxRowsToPattern < lastRow)
+            if (maxRows > 0 && maxRows < lastRow)
             {
-                lastRow = MaxRowsToPattern;
-                Log($"DEBUG LIMIT: patterning only the first {MaxRowsToPattern} data rows.");
+                lastRow = maxRows;
+                Log($"LIMIT: patterning only the first {maxRows} data rows.");
             }
 
             for (int i = 1; i <= lastRow; i++)
@@ -217,11 +214,91 @@ class Program
         Log("Pattern generation complete!");
     }
 
-    // Timestamped progress logging so hangs can be pinpointed to a specific call
+    // Timestamped progress logging so hangs can be pinpointed to a specific call.
+    // Also writes every line to pattern_run_log_<timestamp>.txt in the CSV's folder
+    // (once known; earlier lines are buffered and flushed there afterwards).
+    static readonly System.Collections.Generic.List<string> _logBuffer = new System.Collections.Generic.List<string>();
+    static string _logFilePath = null;
+
+    static void SetLogFolder(string folder)
+    {
+        _logFilePath = Path.Combine(folder,
+            $"pattern_run_log_{DateTime.Now:yyyy-MM-dd_HH-mm-ss}.txt");
+        if (_logBuffer.Count > 0)
+        {
+            File.AppendAllLines(_logFilePath, _logBuffer);
+            _logBuffer.Clear();
+        }
+    }
+
     static void Log(string msg)
     {
-        Console.WriteLine($"[{DateTime.Now:HH:mm:ss.fff}] {msg}");
+        string line = $"[{DateTime.Now:yyyy-MM-dd HH:mm:ss.fff}] {msg}";
+        Console.WriteLine(line);
         Console.Out.Flush();
+        if (_logFilePath != null)
+        {
+            try { File.AppendAllText(_logFilePath, line + System.Environment.NewLine); }
+            catch { /* never let logging break the run */ }
+        }
+        else
+        {
+            _logBuffer.Add(line);
+        }
+    }
+
+    // Startup dialog: choose to process all CSV rows or just the first 10 (for quick tests).
+    // Returns 0 for all rows, 10 for the test run, or -1 if the user closed/cancelled.
+    static int AskRowCount()
+    {
+        const int TestRows = 10;
+        int choice = -1;
+
+        using (var dlg = new Form
+        {
+            Text = "Pattern Tool",
+            FormBorderStyle = FormBorderStyle.FixedDialog,
+            StartPosition = FormStartPosition.CenterScreen,
+            TopMost = true,
+            MinimizeBox = false,
+            MaximizeBox = false,
+            ClientSize = new System.Drawing.Size(320, 90)
+        })
+        {
+            var label = new Label
+            {
+                Text = "How many CSV rows should be patterned?",
+                AutoSize = true,
+                Location = new System.Drawing.Point(20, 15)
+            };
+
+            var allButton = new Button
+            {
+                Text = "All rows",
+                DialogResult = DialogResult.Yes,
+                Location = new System.Drawing.Point(20, 45),
+                Size = new System.Drawing.Size(130, 30)
+            };
+
+            var testButton = new Button
+            {
+                Text = "First 10 rows",
+                DialogResult = DialogResult.No,
+                Location = new System.Drawing.Point(165, 45),
+                Size = new System.Drawing.Size(130, 30)
+            };
+
+            allButton.Click += (s, e) => { choice = 0; dlg.Close(); };
+            testButton.Click += (s, e) => { choice = TestRows; dlg.Close(); };
+
+            dlg.Controls.Add(label);
+            dlg.Controls.Add(allButton);
+            dlg.Controls.Add(testButton);
+            dlg.FormClosed += (s, e) => { if (choice < 0) choice = -1; };
+
+            dlg.ShowDialog();
+        }
+        return choice;
     }
 
     // Helper to open file dialogs, forced to appear on top of all other windows

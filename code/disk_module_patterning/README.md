@@ -3,7 +3,7 @@
 A standalone executable that reads a spreadsheet to generate a customized pattern of a subassembly in SOLIDWORKS. For each row in the CSV, the tool inserts the subassembly, selects the correct configuration, applies rotations and translations, renames the instance in the Feature Tree, and fixes it in place.
 
 ## Background
-Code was initially generated 2026-11-18 by Joe Silber (LBNL) using Gemini Pro.
+Code was initially generated 2026-11-18 by Joe Silber (LBNL) using Gemini Pro initially, and then debugging and feature completion using LBNL cborg-coder.
 
 Initial intended usage is for patterning ePIC SVT Disk Modules per tiling patterns provided by Ernst Sichtermann (LBNL).
 

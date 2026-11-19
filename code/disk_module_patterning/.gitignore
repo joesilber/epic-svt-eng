@@ -2,10 +2,7 @@
 bin/*
 obj/
 
-# ...but keep the built executables in the repo for convenience
-!bin/Debug/
-!bin/Debug/net48/
-!bin/Debug/net48/PatternTool.exe
+# ...but keep the built Release executables in the repo for convenience
 !bin/Release/
 !bin/Release/net48/
 !bin/Release/net48/PatternTool.exe

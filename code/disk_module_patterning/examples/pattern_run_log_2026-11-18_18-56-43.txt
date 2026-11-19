@@ -1,0 +1,40 @@
+[2026-11-18 18:56:40.576] Showing CSV file dialog...
+[2026-11-18 18:56:43.461] CSV selected: C:\Users\jhsilber\GitHub\epic-svt-eng\code\disk_module_patterning\examples\ED1_modules_cad_2026-11-11.csv
+[2026-11-18 18:56:43.465] Showing subassembly file dialog... (if this seems stuck, check for a hidden dialog window)
+[2026-11-18 18:56:46.166] Subassembly selected: C:\Users\jhsilber\GitHub\epic-svt-eng\code\disk_module_patterning\examples\EC-1016-8228_DISK_MODULE_2026-11-18.SLDASM
+[2026-11-18 18:56:46.170] Reading CSV file...
+[2026-11-18 18:56:46.173] CSV read OK: 237 lines (including header).
+[2026-11-18 18:56:46.175] Connecting to running SOLIDWORKS instance...
+[2026-11-18 18:56:46.233] Connected to SOLIDWORKS.
+[2026-11-18 18:56:46.235] Opening C:\Users\jhsilber\GitHub\epic-svt-eng\code\disk_module_patterning\examples\EC-1016-8228_DISK_MODULE_2026-11-18.SLDASM silently... (large assemblies can take a while; watch the SOLIDWORKS window for dialogs)
+[2026-11-18 18:56:49.852] OpenDoc6 returned. Error code: 0, Warning code: 0
+[2026-11-18 18:56:49.879] Default assembly template preference: '~BLANK_ASSY_TEMPLATE.asmdot'
+[2026-11-18 18:56:49.880] Default template is empty or the file does not exist - searching template folders for an .asmdot file...
+[2026-11-18 18:56:49.889] Document templates folder preference: 'C:\ProgramData\SolidWorks\SOLIDWORKS 2022\templates;C:\Users\jhsilber\Documents\PTC Places\Commonspace\Libraries\Standards\Templates\SolidWorks'
+[2026-11-18 18:56:49.891] Using fallback template: C:\ProgramData\SolidWorks\SOLIDWORKS 2022\templates\Assembly.ASMDOT
+[2026-11-18 18:56:49.892] Creating new parent assembly document...
+[2026-11-18 18:56:50.847] New assembly document created.
+[2026-11-18 18:56:51.196] Processing 236 CSV rows...
+[2026-11-18 18:56:51.197] LIMIT: patterning only the first 10 data rows.
+[2026-11-18 18:56:51.199] Row 1/10: type_id=B601
+[2026-11-18 18:56:52.155] Row 1: renamed 'EC-1016-8228_DISK_MODULE_2026-11-18-1' -> 'B601_Disk3_Row0_Pos1'
+[2026-11-18 18:56:52.227] Row 2/10: type_id=B611
+[2026-11-18 18:56:52.526] Row 2: renamed 'EC-1016-8228_DISK_MODULE_2026-11-18-2' -> 'B611_Disk3_Row0_Pos0'
+[2026-11-18 18:56:52.559] Row 3/10: type_id=B611
+[2026-11-18 18:56:52.849] Row 3: renamed 'EC-1016-8228_DISK_MODULE_2026-11-18-3' -> 'B611_Disk3_Row1_Pos0'
+[2026-11-18 18:56:52.979] Row 4/10: type_id=B601
+[2026-11-18 18:56:53.104] Row 4: renamed 'EC-1016-8228_DISK_MODULE_2026-11-18-4' -> 'B601_Disk3_Row1_Pos1'
+[2026-11-18 18:56:53.273] Row 5/10: type_id=B610
+[2026-11-18 18:56:54.551] Row 5: renamed 'EC-1016-8228_DISK_MODULE_2026-11-18-5' -> 'B610_Disk3_Row1_Pos2'
+[2026-11-18 18:56:54.597] Row 6/10: type_id=B601
+[2026-11-18 18:56:54.878] Row 6: renamed 'EC-1016-8228_DISK_MODULE_2026-11-18-6' -> 'B601_Disk3_Row2_Pos2'
+[2026-11-18 18:56:54.930] Row 7/10: type_id=B611
+[2026-11-18 18:56:55.033] Row 7: renamed 'EC-1016-8228_DISK_MODULE_2026-11-18-7' -> 'B611_Disk3_Row2_Pos1'
+[2026-11-18 18:56:55.223] Row 8/10: type_id=B600
+[2026-11-18 18:56:55.328] Row 8: renamed 'EC-1016-8228_DISK_MODULE_2026-11-18-8' -> 'B600_Disk3_Row2_Pos0'
+[2026-11-18 18:56:55.552] Row 9/10: type_id=B600
+[2026-11-18 18:56:55.670] Row 9: renamed 'EC-1016-8228_DISK_MODULE_2026-11-18-9' -> 'B600_Disk3_Row3_Pos0'
+[2026-11-18 18:56:55.887] Row 10/10: type_id=B611
+[2026-11-18 18:56:55.995] Row 10: renamed 'EC-1016-8228_DISK_MODULE_2026-11-18-10' -> 'B611_Disk3_Row3_Pos1'
+[2026-11-18 18:56:56.316] Rebuilding assembly...
+[2026-11-18 18:56:56.464] Pattern generation complete!
