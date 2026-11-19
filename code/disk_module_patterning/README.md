@@ -66,3 +66,8 @@ As of 2026-11-18, I was doing the compilation in VS Code, using .NET version 11.
 ## Debugging
 I installed the **C# Dev Kit** extension, which gives VS Code debugging support. Make sure SOLIDWORKS is already running in the background before you start, because your code immediately tries to connect to it and will exit if it is closed. Then, go to `Patternscript.cs` and press F5 on your keyboard or click the Run and Debug icon on the left sidebar and start the debugger.
 
+## To-Do
+
+- [ ] Support multiple input pattern files for multiple disks in one batch.
+- [ ] Resolve the `x_id` vs `mod_index` vs `Pos` question for identifying modules along a given row.
+
