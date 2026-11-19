@@ -233,26 +233,6 @@ class Program
             Log($"Could not set shaded view mode: {ex.Message}");
         }
 
-        // Hide sketches only (diagnostic step toward "Hide All Types").
-        // Operate on the ACTIVE document object obtained from SOLIDWORKS itself,
-        // since view-visibility commands act on the active view of the active doc.
-        Log("Hiding sketches...");
-        try
-        {
-            var activeDoc = (ModelDoc2)swApp.ActiveDoc;
-            Log($"Active document: '{(activeDoc != null ? activeDoc.GetTitle() : "<none>")}'");
-            if (activeDoc != null)
-            {
-                activeDoc.BlankRefGeom(); // try full "Hide All Types" on the active doc object
-                activeDoc.GraphicsRedraw2();
-                Log("BlankRefGeom called on active document.");
-            }
-        }
-        catch (Exception ex)
-        {
-            Log($"Could not hide sketches: {ex.Message}");
-        }
-
         // Zoom to fit
         Log("Zoom to fit...");
         try
