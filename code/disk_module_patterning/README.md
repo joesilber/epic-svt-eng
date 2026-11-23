@@ -70,7 +70,8 @@ I installed the **C# Dev Kit** extension, which gives VS Code debugging support.
 
 - [ ] Option box that shows files chosen, prefixes, etc.
 - [ ] Support multiple input pattern files for multiple disks in one batch.
-- [ ] Have each make a separate assembly (or option to have separate or single assembly).
+- [ ] Have each pattern file make a separate assembly (or option to have separate or single assembly).
+  - 2026-11-23 mtg -- make tool support updating existing set of 20 half-disk assembly files
 - [ ] Name disk in Feature Tree like "ED1" etc using file prefix.
   - 2026-11-23 mtg -- agreed, yes do this
   - stop carrying numeric disk index in CAD file
