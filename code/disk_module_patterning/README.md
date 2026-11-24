@@ -81,4 +81,6 @@ I installed the **C# Dev Kit** extension, which gives VS Code debugging support.
   - module numbers go from (min -X --> 0) to max +X
   - ignore `x_id`, which has something to do with IP
 - [ ] Possibly: handle case where you pattern such that `x_mm`, `y_mm`, `z_mm` correspond to a different reference point in the subcomponent than its origin. Probably by providing the script with the name of the alternate point.
+- [ ] Split disk assemblies into different top/bottom half assemblies.
+  - 2026-11-23 chat -- we will assume y <= 0 goes to bottom half, y > 0 goes to top half.
 
