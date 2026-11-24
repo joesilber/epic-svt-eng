@@ -71,7 +71,9 @@ I installed the **C# Dev Kit** extension, which gives VS Code debugging support.
 - [ ] Option box that shows files chosen, prefixes, etc.
 - [ ] Support multiple input pattern files for multiple disks in one batch.
 - [ ] Have each pattern file make a separate assembly (or option to have separate or single assembly).
-  - 2026-11-23 mtg -- make tool support updating existing set of 20 half-disk assembly files
+  - 2026-11-23 mtg -- make tool support updating existing set of disk assembly files
+- [ ] Split disk assemblies into different top/bottom half assemblies.
+  - 2026-11-23 chat -- we will assume y <= 0 goes to bottom half, y > 0 goes to top half.
 - [ ] Name disk in Feature Tree like "ED1" etc using file prefix.
   - 2026-11-23 mtg -- agreed, yes do this
   - stop carrying numeric disk index in CAD file
@@ -81,6 +83,4 @@ I installed the **C# Dev Kit** extension, which gives VS Code debugging support.
   - module numbers go from (min -X --> 0) to max +X
   - ignore `x_id`, which has something to do with IP
 - [ ] Possibly: handle case where you pattern such that `x_mm`, `y_mm`, `z_mm` correspond to a different reference point in the subcomponent than its origin. Probably by providing the script with the name of the alternate point.
-- [ ] Split disk assemblies into different top/bottom half assemblies.
-  - 2026-11-23 chat -- we will assume y <= 0 goes to bottom half, y > 0 goes to top half.
 
