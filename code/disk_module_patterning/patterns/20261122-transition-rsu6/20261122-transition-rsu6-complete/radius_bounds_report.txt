@@ -1,0 +1,1 @@
+OK: sensor_r_out_mm recomputation and radius ordering confirmed across 10 disk(s).

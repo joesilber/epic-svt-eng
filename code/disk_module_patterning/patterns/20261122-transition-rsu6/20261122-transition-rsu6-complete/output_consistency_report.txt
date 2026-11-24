@@ -1,0 +1,1 @@
+OK: row/module ordering, type_id digit consistency, row homogeneity, facing alternation, unblocked-row overlap ceiling, same-facing baseplate overlap, negative row gap, sensor radii ordering, and single contiguous beampipe crossing confirmed across 10 disk(s).

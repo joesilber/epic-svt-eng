@@ -1,0 +1,1 @@
+OK: chirality (table lookup) and facing (z_sensor offset) confirmed across 10 disk(s).

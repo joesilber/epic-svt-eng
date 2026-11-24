@@ -1,0 +1,262 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1132" height="688" viewBox="0 0 1132 688" font-family="monospace">
+<title>Disk z=-850mm Tiling — front, outward only</title>
+<defs><pattern id="hatch" width="6" height="6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse"><rect width="6" height="6" fill="rgba(161,58,58,0.16)"/><line x1="0" y1="0" x2="0" y2="6" stroke="rgba(161,58,58,0.32)" stroke-width="1.4"/></pattern></defs>
+<rect x="0" y="0" width="1132" height="688" fill="#f1ede1"/>
+<rect x="24" y="24" width="640" height="640" fill="#e7e0cb" stroke="#c9bd98"/>
+<g transform="translate(344.0,344.0) scale(-0.6675279931093884,-0.6675279931093884)">
+<circle cx="0" cy="0" r="200.0" fill="none" stroke="#cdc2a0" stroke-width="1.4981"/>
+<circle cx="0" cy="0" r="400.0" fill="none" stroke="#cdc2a0" stroke-width="1.4981"/>
+<line x1="-464.40000000000003" y1="0" x2="464.40000000000003" y2="0" stroke="#cdc2a0" stroke-width="1.4981"/>
+<line x1="0" y1="-464.40000000000003" x2="0" y2="464.40000000000003" stroke="#cdc2a0" stroke-width="1.4981"/>
+<circle cx="0.0" cy="0.0" r="34.9" fill="url(#hatch)" stroke="#a13a3a" stroke-width="2.0973"/>
+<circle cx="21.2544" cy="0.0" r="15.9" fill="url(#hatch)" stroke="#a13a3a" stroke-width="2.0973"/>
+<rect x="-56.061200000000014" y="385.25" width="159.996" height="32.0" fill="none" stroke="#516576" stroke-width="0.8988" stroke-opacity="0.75"/>
+<rect x="-46.061200000000014" y="391.993" width="129.996" height="18.51400000000001" fill="rgba(184,83,44,0.50)" stroke="#b8532c" stroke-width="1.3483"><title>row 0 mod 1 : B601 (FRONT, OUTWARD, POSITIVE)</title></rect>
+<text x="18.93679999999999" y="401.25" transform="rotate(180 18.93679999999999 401.25)" font-size="10.4865" fill="#1c2b3a" text-anchor="middle" dominant-baseline="central" pointer-events="none">B601 R0 M1</text>
+<rect x="-74.998" y="352.25" width="159.996" height="32.0" fill="none" stroke="#516576" stroke-width="0.8988" stroke-opacity="0.75"/>
+<rect x="-64.998" y="358.993" width="129.996" height="18.51400000000001" fill="rgba(184,83,44,0.50)" stroke="#b8532c" stroke-width="1.3483"><title>row 2 mod 1 : B601 (FRONT, OUTWARD, POSITIVE)</title></rect>
+<text x="0.0" y="368.25" transform="rotate(180 0.0 368.25)" font-size="10.4865" fill="#1c2b3a" text-anchor="middle" dominant-baseline="central" pointer-events="none">B601 R2 M1</text>
+<rect x="-248.0392" y="319.25" width="159.996" height="32.0" fill="none" stroke="#516576" stroke-width="0.8988" stroke-opacity="0.75"/>
+<rect x="-228.0392" y="325.993" width="129.996" height="18.51400000000001" fill="rgba(184,83,44,0.50)" stroke="#b8532c" stroke-width="1.3483"><title>row 4 mod 0 : B600 (FRONT, OUTWARD, NEGATIVE)</title></rect>
+<text x="-163.0412" y="335.25" transform="rotate(180 -163.0412 335.25)" font-size="10.4865" fill="#1c2b3a" text-anchor="middle" dominant-baseline="central" pointer-events="none">B600 R4 M0</text>
+<rect x="-12.000000000000014" y="319.25" width="159.99599999999998" height="32.0" fill="none" stroke="#516576" stroke-width="0.8988" stroke-opacity="0.75"/>
+<rect x="-2.000000000000014" y="325.993" width="129.996" height="18.51400000000001" fill="rgba(184,83,44,0.50)" stroke="#b8532c" stroke-width="1.3483"><title>row 4 mod 2 : B601 (FRONT, OUTWARD, POSITIVE)</title></rect>
+<text x="62.99799999999999" y="335.25" transform="rotate(180 62.99799999999999 335.25)" font-size="10.4865" fill="#1c2b3a" text-anchor="middle" dominant-baseline="central" pointer-events="none">B601 R4 M2</text>
+<rect x="-289.1659" y="286.25" width="159.996" height="32.0" fill="none" stroke="#516576" stroke-width="0.8988" stroke-opacity="0.75"/>
+<rect x="-269.1659" y="292.993" width="129.996" height="18.51400000000001" fill="rgba(184,83,44,0.50)" stroke="#b8532c" stroke-width="1.3483"><title>row 6 mod 0 : B600 (FRONT, OUTWARD, NEGATIVE)</title></rect>
+<text x="-204.16790000000003" y="302.25" transform="rotate(180 -204.16790000000003 302.25)" font-size="10.4865" fill="#1c2b3a" text-anchor="middle" dominant-baseline="central" pointer-events="none">B600 R6 M0</text>
+<rect x="-74.998" y="286.25" width="159.996" height="32.0" fill="none" stroke="#516576" stroke-width="0.8988" stroke-opacity="0.75"/>
+<rect x="-64.998" y="292.993" width="129.996" height="18.51400000000001" fill="rgba(184,83,44,0.50)" stroke="#b8532c" stroke-width="1.3483"><title>row 6 mod 2 : B601 (FRONT, OUTWARD, POSITIVE)</title></rect>
+<text x="0.0" y="302.25" transform="rotate(180 0.0 302.25)" font-size="10.4865" fill="#1c2b3a" text-anchor="middle" dominant-baseline="central" pointer-events="none">B601 R6 M2</text>
+<rect x="129.1699" y="286.25" width="159.996" height="32.0" fill="none" stroke="#516576" stroke-width="0.8988" stroke-opacity="0.75"/>
+<rect x="139.1699" y="292.993" width="129.996" height="18.51400000000001" fill="rgba(184,83,44,0.50)" stroke="#b8532c" stroke-width="1.3483"><title>row 6 mod 4 : B601 (FRONT, OUTWARD, POSITIVE)</title></rect>
+<text x="204.16790000000003" y="302.25" transform="rotate(180 204.16790000000003 302.25)" font-size="10.4865" fill="#1c2b3a" text-anchor="middle" dominant-baseline="central" pointer-events="none">B601 R6 M4</text>
+<rect x="-321.7646" y="253.25" width="159.996" height="32.0" fill="none" stroke="#516576" stroke-width="0.8988" stroke-opacity="0.75"/>
+<rect x="-301.7646" y="259.993" width="129.996" height="18.51400000000001" fill="rgba(184,83,44,0.50)" stroke="#b8532c" stroke-width="1.3483"><title>row 8 mod 0 : B600 (FRONT, OUTWARD, NEGATIVE)</title></rect>
+<text x="-236.76659999999998" y="269.25" transform="rotate(180 -236.76659999999998 269.25)" font-size="10.4865" fill="#1c2b3a" text-anchor="middle" dominant-baseline="central" pointer-events="none">B600 R8 M0</text>
+<rect x="-74.998" y="253.25" width="159.996" height="32.0" fill="none" stroke="#516576" stroke-width="0.8988" stroke-opacity="0.75"/>
+<rect x="-64.998" y="259.993" width="129.996" height="18.51400000000001" fill="rgba(184,83,44,0.50)" stroke="#b8532c" stroke-width="1.3483"><title>row 8 mod 2 : B601 (FRONT, OUTWARD, POSITIVE)</title></rect>
+<text x="0.0" y="269.25" transform="rotate(180 0.0 269.25)" font-size="10.4865" fill="#1c2b3a" text-anchor="middle" dominant-baseline="central" pointer-events="none">B601 R8 M2</text>
+<rect x="161.76859999999996" y="253.25" width="159.996" height="32.0" fill="none" stroke="#516576" stroke-width="0.8988" stroke-opacity="0.75"/>
+<rect x="171.76859999999996" y="259.993" width="129.996" height="18.51400000000001" fill="rgba(184,83,44,0.50)" stroke="#b8532c" stroke-width="1.3483"><title>row 8 mod 4 : B601 (FRONT, OUTWARD, POSITIVE)</title></rect>
+<text x="236.76659999999998" y="269.25" transform="rotate(180 236.76659999999998 269.25)" font-size="10.4865" fill="#1c2b3a" text-anchor="middle" dominant-baseline="central" pointer-events="none">B601 R8 M4</text>
+<rect x="-273.99199999999996" y="220.25" width="159.99599999999998" height="32.0" fill="none" stroke="#516576" stroke-width="0.8988" stroke-opacity="0.75"/>
+<rect x="-253.992" y="226.993" width="129.996" height="18.51400000000001" fill="rgba(184,83,44,0.50)" stroke="#b8532c" stroke-width="1.3483"><title>row 10 mod 1 : B600 (FRONT, OUTWARD, NEGATIVE)</title></rect>
+<text x="-188.99399999999997" y="236.25" transform="rotate(180 -188.99399999999997 236.25)" font-size="10.4865" fill="#1c2b3a" text-anchor="middle" dominant-baseline="central" pointer-events="none">B600 R10 M1</text>
+<rect x="-12.000000000000014" y="220.25" width="159.99599999999998" height="32.0" fill="none" stroke="#516576" stroke-width="0.8988" stroke-opacity="0.75"/>
+<rect x="-2.000000000000014" y="226.993" width="129.996" height="18.51400000000001" fill="rgba(184,83,44,0.50)" stroke="#b8532c" stroke-width="1.3483"><title>row 10 mod 3 : B601 (FRONT, OUTWARD, POSITIVE)</title></rect>
+<text x="62.99799999999999" y="236.25" transform="rotate(180 62.99799999999999 236.25)" font-size="10.4865" fill="#1c2b3a" text-anchor="middle" dominant-baseline="central" pointer-events="none">B601 R10 M3</text>
+<rect x="188.24229999999997" y="220.25" width="159.996" height="32.0" fill="none" stroke="#516576" stroke-width="0.8988" stroke-opacity="0.75"/>
+<rect x="198.24229999999997" y="226.993" width="129.996" height="18.51400000000001" fill="rgba(184,83,44,0.50)" stroke="#b8532c" stroke-width="1.3483"><title>row 10 mod 5 : B601 (FRONT, OUTWARD, POSITIVE)</title></rect>
+<text x="263.2403" y="236.25" transform="rotate(180 263.2403 236.25)" font-size="10.4865" fill="#1c2b3a" text-anchor="middle" dominant-baseline="central" pointer-events="none">B601 R10 M5</text>
+<rect x="-273.99199999999996" y="187.25" width="159.99599999999998" height="32.0" fill="none" stroke="#516576" stroke-width="0.8988" stroke-opacity="0.75"/>
+<rect x="-253.992" y="193.993" width="129.996" height="18.51400000000001" fill="rgba(184,83,44,0.50)" stroke="#b8532c" stroke-width="1.3483"><title>row 12 mod 1 : B600 (FRONT, OUTWARD, NEGATIVE)</title></rect>
+<text x="-188.99399999999997" y="203.25" transform="rotate(180 -188.99399999999997 203.25)" font-size="10.4865" fill="#1c2b3a" text-anchor="middle" dominant-baseline="central" pointer-events="none">B600 R12 M1</text>
+<rect x="-12.000000000000014" y="187.25" width="159.99599999999998" height="32.0" fill="none" stroke="#516576" stroke-width="0.8988" stroke-opacity="0.75"/>
+<rect x="-2.000000000000014" y="193.993" width="129.996" height="18.51400000000001" fill="rgba(184,83,44,0.50)" stroke="#b8532c" stroke-width="1.3483"><title>row 12 mod 3 : B601 (FRONT, OUTWARD, POSITIVE)</title></rect>
+<text x="62.99799999999999" y="203.25" transform="rotate(180 62.99799999999999 203.25)" font-size="10.4865" fill="#1c2b3a" text-anchor="middle" dominant-baseline="central" pointer-events="none">B601 R12 M3</text>
+<rect x="209.9086" y="187.25" width="159.996" height="32.0" fill="none" stroke="#516576" stroke-width="0.8988" stroke-opacity="0.75"/>
+<rect x="219.9086" y="193.993" width="129.996" height="18.51400000000001" fill="rgba(184,83,44,0.50)" stroke="#b8532c" stroke-width="1.3483"><title>row 12 mod 5 : B601 (FRONT, OUTWARD, POSITIVE)</title></rect>
+<text x="284.9066" y="203.25" transform="rotate(180 284.9066 203.25)" font-size="10.4865" fill="#1c2b3a" text-anchor="middle" dominant-baseline="central" pointer-events="none">B601 R12 M5</text>
+<rect x="-273.99199999999996" y="154.25" width="159.99599999999998" height="32.0" fill="none" stroke="#516576" stroke-width="0.8988" stroke-opacity="0.75"/>
+<rect x="-253.992" y="160.993" width="129.996" height="18.51400000000001" fill="rgba(184,83,44,0.50)" stroke="#b8532c" stroke-width="1.3483"><title>row 14 mod 1 : B600 (FRONT, OUTWARD, NEGATIVE)</title></rect>
+<text x="-188.99399999999997" y="170.25" transform="rotate(180 -188.99399999999997 170.25)" font-size="10.4865" fill="#1c2b3a" text-anchor="middle" dominant-baseline="central" pointer-events="none">B600 R14 M1</text>
+<rect x="-12.000000000000014" y="154.25" width="159.99599999999998" height="32.0" fill="none" stroke="#516576" stroke-width="0.8988" stroke-opacity="0.75"/>
+<rect x="-2.000000000000014" y="160.993" width="129.996" height="18.51400000000001" fill="rgba(184,83,44,0.50)" stroke="#b8532c" stroke-width="1.3483"><title>row 14 mod 3 : B601 (FRONT, OUTWARD, POSITIVE)</title></rect>
+<text x="62.99799999999999" y="170.25" transform="rotate(180 62.99799999999999 170.25)" font-size="10.4865" fill="#1c2b3a" text-anchor="middle" dominant-baseline="central" pointer-events="none">B601 R14 M3</text>
+<rect x="227.5746" y="154.25" width="159.996" height="32.0" fill="none" stroke="#516576" stroke-width="0.8988" stroke-opacity="0.75"/>
+<rect x="237.5746" y="160.993" width="129.996" height="18.51400000000001" fill="rgba(184,83,44,0.50)" stroke="#b8532c" stroke-width="1.3483"><title>row 14 mod 5 : B601 (FRONT, OUTWARD, POSITIVE)</title></rect>
+<text x="302.5726" y="170.25" transform="rotate(180 302.5726 170.25)" font-size="10.4865" fill="#1c2b3a" text-anchor="middle" dominant-baseline="central" pointer-events="none">B601 R14 M5</text>
+<rect x="-336.99" y="118.1753" width="159.996" height="35.0" fill="none" stroke="#516576" stroke-width="0.8988" stroke-opacity="0.75"/>
+<rect x="-316.99" y="126.41829999999999" width="129.996" height="18.51400000000001" fill="rgba(184,83,44,0.50)" stroke="#b8532c" stroke-width="1.3483"><title>row 16 mod 1 : A600 (FRONT, OUTWARD, NEGATIVE)</title></rect>
+<text x="-251.99200000000002" y="135.6753" transform="rotate(180 -251.99200000000002 135.6753)" font-size="10.4865" fill="#1c2b3a" text-anchor="middle" dominant-baseline="central" pointer-events="none">A600 R16 M1</text>
+<rect x="-74.998" y="118.1753" width="159.996" height="35.0" fill="none" stroke="#516576" stroke-width="0.8988" stroke-opacity="0.75"/>
+<rect x="-64.998" y="126.41829999999999" width="129.996" height="18.51400000000001" fill="rgba(184,83,44,0.50)" stroke="#b8532c" stroke-width="1.3483"><title>row 16 mod 3 : A601 (FRONT, OUTWARD, POSITIVE)</title></rect>
+<text x="0.0" y="135.6753" transform="rotate(180 0.0 135.6753)" font-size="10.4865" fill="#1c2b3a" text-anchor="middle" dominant-baseline="central" pointer-events="none">A601 R16 M3</text>
+<rect x="176.994" y="118.1753" width="159.996" height="35.0" fill="none" stroke="#516576" stroke-width="0.8988" stroke-opacity="0.75"/>
+<rect x="186.994" y="126.41829999999999" width="129.996" height="18.51400000000001" fill="rgba(184,83,44,0.50)" stroke="#b8532c" stroke-width="1.3483"><title>row 16 mod 5 : A601 (FRONT, OUTWARD, POSITIVE)</title></rect>
+<text x="251.99200000000002" y="135.6753" transform="rotate(180 251.99200000000002 135.6753)" font-size="10.4865" fill="#1c2b3a" text-anchor="middle" dominant-baseline="central" pointer-events="none">A601 R16 M5</text>
+<rect x="-336.99" y="82.1223" width="159.996" height="35.0" fill="none" stroke="#516576" stroke-width="0.8988" stroke-opacity="0.75"/>
+<rect x="-316.99" y="90.36529999999999" width="129.996" height="18.51400000000001" fill="rgba(184,83,44,0.50)" stroke="#b8532c" stroke-width="1.3483"><title>row 18 mod 1 : A600 (FRONT, OUTWARD, NEGATIVE)</title></rect>
+<text x="-251.99200000000002" y="99.6223" transform="rotate(180 -251.99200000000002 99.6223)" font-size="10.4865" fill="#1c2b3a" text-anchor="middle" dominant-baseline="central" pointer-events="none">A600 R18 M1</text>
+<rect x="-74.998" y="82.1223" width="159.996" height="35.0" fill="none" stroke="#516576" stroke-width="0.8988" stroke-opacity="0.75"/>
+<rect x="-64.998" y="90.36529999999999" width="129.996" height="18.51400000000001" fill="rgba(184,83,44,0.50)" stroke="#b8532c" stroke-width="1.3483"><title>row 18 mod 3 : A601 (FRONT, OUTWARD, POSITIVE)</title></rect>
+<text x="0.0" y="99.6223" transform="rotate(180 0.0 99.6223)" font-size="10.4865" fill="#1c2b3a" text-anchor="middle" dominant-baseline="central" pointer-events="none">A601 R18 M3</text>
+<rect x="176.994" y="82.1223" width="159.996" height="35.0" fill="none" stroke="#516576" stroke-width="0.8988" stroke-opacity="0.75"/>
+<rect x="186.994" y="90.36529999999999" width="129.996" height="18.51400000000001" fill="rgba(184,83,44,0.50)" stroke="#b8532c" stroke-width="1.3483"><title>row 18 mod 5 : A601 (FRONT, OUTWARD, POSITIVE)</title></rect>
+<text x="251.99200000000002" y="99.6223" transform="rotate(180 251.99200000000002 99.6223)" font-size="10.4865" fill="#1c2b3a" text-anchor="middle" dominant-baseline="central" pointer-events="none">A601 R18 M5</text>
+<rect x="-336.99" y="45.9734" width="159.996" height="35.0" fill="none" stroke="#516576" stroke-width="0.8988" stroke-opacity="0.75"/>
+<rect x="-316.99" y="54.2164" width="129.996" height="18.514000000000003" fill="rgba(184,83,44,0.50)" stroke="#b8532c" stroke-width="1.3483"><title>row 20 mod 1 : A600 (FRONT, OUTWARD, NEGATIVE)</title></rect>
+<text x="-251.99200000000002" y="63.4734" transform="rotate(180 -251.99200000000002 63.4734)" font-size="10.4865" fill="#1c2b3a" text-anchor="middle" dominant-baseline="central" pointer-events="none">A600 R20 M1</text>
+<rect x="-74.998" y="45.9734" width="159.996" height="35.0" fill="none" stroke="#516576" stroke-width="0.8988" stroke-opacity="0.75"/>
+<rect x="-64.998" y="54.2164" width="129.996" height="18.514000000000003" fill="rgba(184,83,44,0.50)" stroke="#b8532c" stroke-width="1.3483"><title>row 20 mod 3 : A601 (FRONT, OUTWARD, POSITIVE)</title></rect>
+<text x="0.0" y="63.4734" transform="rotate(180 0.0 63.4734)" font-size="10.4865" fill="#1c2b3a" text-anchor="middle" dominant-baseline="central" pointer-events="none">A601 R20 M3</text>
+<rect x="176.994" y="45.9734" width="159.996" height="35.0" fill="none" stroke="#516576" stroke-width="0.8988" stroke-opacity="0.75"/>
+<rect x="186.994" y="54.2164" width="129.996" height="18.514000000000003" fill="rgba(184,83,44,0.50)" stroke="#b8532c" stroke-width="1.3483"><title>row 20 mod 5 : A601 (FRONT, OUTWARD, POSITIVE)</title></rect>
+<text x="251.99200000000002" y="63.4734" transform="rotate(180 251.99200000000002 63.4734)" font-size="10.4865" fill="#1c2b3a" text-anchor="middle" dominant-baseline="central" pointer-events="none">A601 R20 M5</text>
+<rect x="-427.6673" y="9.7285" width="159.99600000000004" height="35.0" fill="none" stroke="#516576" stroke-width="0.8988" stroke-opacity="0.75"/>
+<rect x="-407.6673" y="17.9715" width="129.99600000000004" height="18.514000000000003" fill="rgba(184,83,44,0.50)" stroke="#b8532c" stroke-width="1.3483"><title>row 22 mod 0 : A600 (FRONT, OUTWARD, NEGATIVE)</title></rect>
+<text x="-342.6693" y="27.2285" transform="rotate(180 -342.6693 27.2285)" font-size="10.4865" fill="#1c2b3a" text-anchor="middle" dominant-baseline="central" pointer-events="none">A600 R22 M0</text>
+<rect x="-198.6918" y="9.7285" width="159.996" height="35.0" fill="none" stroke="#516576" stroke-width="0.8988" stroke-opacity="0.75"/>
+<rect x="-178.6918" y="17.9715" width="129.996" height="18.514000000000003" fill="rgba(184,83,44,0.50)" stroke="#b8532c" stroke-width="1.3483"><title>row 22 mod 2 : A600 (FRONT, OUTWARD, NEGATIVE)</title></rect>
+<text x="-113.6938" y="27.2285" transform="rotate(180 -113.6938 27.2285)" font-size="10.4865" fill="#1c2b3a" text-anchor="middle" dominant-baseline="central" pointer-events="none">A600 R22 M2</text>
+<rect x="39.75219999999999" y="9.7285" width="159.996" height="35.0" fill="none" stroke="#516576" stroke-width="0.8988" stroke-opacity="0.75"/>
+<rect x="49.75219999999999" y="17.9715" width="129.996" height="18.514000000000003" fill="rgba(184,83,44,0.50)" stroke="#b8532c" stroke-width="1.3483"><title>row 22 mod 3 : A601 (FRONT, OUTWARD, POSITIVE)</title></rect>
+<text x="114.75019999999999" y="27.2285" transform="rotate(180 114.75019999999999 27.2285)" font-size="10.4865" fill="#1c2b3a" text-anchor="middle" dominant-baseline="central" pointer-events="none">A601 R22 M3</text>
+<rect x="267.6713" y="9.7285" width="159.99600000000004" height="35.0" fill="none" stroke="#516576" stroke-width="0.8988" stroke-opacity="0.75"/>
+<rect x="277.6713" y="17.9715" width="129.99600000000004" height="18.514000000000003" fill="rgba(184,83,44,0.50)" stroke="#b8532c" stroke-width="1.3483"><title>row 22 mod 5 : A601 (FRONT, OUTWARD, POSITIVE)</title></rect>
+<text x="342.6693" y="27.2285" transform="rotate(180 342.6693 27.2285)" font-size="10.4865" fill="#1c2b3a" text-anchor="middle" dominant-baseline="central" pointer-events="none">A601 R22 M5</text>
+<rect x="-429.1332" y="-27.289099999999998" width="159.99599999999998" height="35.0" fill="none" stroke="#516576" stroke-width="0.8988" stroke-opacity="0.75"/>
+<rect x="-409.1332" y="-19.0461" width="129.99599999999998" height="18.514" fill="rgba(184,83,44,0.50)" stroke="#b8532c" stroke-width="1.3483"><title>row 24 mod 0 : A601 (FRONT, OUTWARD, POSITIVE)</title></rect>
+<text x="-344.1352" y="-9.7891" transform="rotate(180 -344.1352 -9.7891)" font-size="10.4865" fill="#1c2b3a" text-anchor="middle" dominant-baseline="central" pointer-events="none">A601 R24 M0</text>
+<rect x="-199.896" y="-27.289099999999998" width="159.996" height="35.0" fill="none" stroke="#516576" stroke-width="0.8988" stroke-opacity="0.75"/>
+<rect x="-179.896" y="-19.0461" width="129.996" height="18.514" fill="rgba(184,83,44,0.50)" stroke="#b8532c" stroke-width="1.3483"><title>row 24 mod 2 : A601 (FRONT, OUTWARD, POSITIVE)</title></rect>
+<text x="-114.89799999999998" y="-9.7891" transform="rotate(180 -114.89799999999998 -9.7891)" font-size="10.4865" fill="#1c2b3a" text-anchor="middle" dominant-baseline="central" pointer-events="none">A601 R24 M2</text>
+<rect x="42.15439999999998" y="-27.289099999999998" width="159.996" height="35.0" fill="none" stroke="#516576" stroke-width="0.8988" stroke-opacity="0.75"/>
+<rect x="52.15439999999998" y="-19.0461" width="129.996" height="18.514" fill="rgba(184,83,44,0.50)" stroke="#b8532c" stroke-width="1.3483"><title>row 24 mod 3 : A600 (FRONT, OUTWARD, NEGATIVE)</title></rect>
+<text x="117.15239999999999" y="-9.7891" transform="rotate(180 117.15239999999999 -9.7891)" font-size="10.4865" fill="#1c2b3a" text-anchor="middle" dominant-baseline="central" pointer-events="none">A600 R24 M3</text>
+<rect x="269.1372" y="-27.289099999999998" width="159.99599999999998" height="35.0" fill="none" stroke="#516576" stroke-width="0.8988" stroke-opacity="0.75"/>
+<rect x="279.1372" y="-19.0461" width="129.99599999999998" height="18.514" fill="rgba(184,83,44,0.50)" stroke="#b8532c" stroke-width="1.3483"><title>row 24 mod 5 : A600 (FRONT, OUTWARD, NEGATIVE)</title></rect>
+<text x="344.1352" y="-9.7891" transform="rotate(180 344.1352 -9.7891)" font-size="10.4865" fill="#1c2b3a" text-anchor="middle" dominant-baseline="central" pointer-events="none">A600 R24 M5</text>
+<rect x="-425.3169" y="-63.2891" width="159.99600000000004" height="35.0" fill="none" stroke="#516576" stroke-width="0.8988" stroke-opacity="0.75"/>
+<rect x="-405.3169" y="-55.046099999999996" width="129.99600000000004" height="18.513999999999996" fill="rgba(184,83,44,0.50)" stroke="#b8532c" stroke-width="1.3483"><title>row 26 mod 0 : A601 (FRONT, OUTWARD, POSITIVE)</title></rect>
+<text x="-340.3189" y="-45.7891" transform="rotate(180 -340.3189 -45.7891)" font-size="10.4865" fill="#1c2b3a" text-anchor="middle" dominant-baseline="central" pointer-events="none">A601 R26 M0</text>
+<rect x="-188.1339" y="-63.2891" width="159.996" height="35.0" fill="none" stroke="#516576" stroke-width="0.8988" stroke-opacity="0.75"/>
+<rect x="-168.1339" y="-55.046099999999996" width="129.996" height="18.513999999999996" fill="rgba(184,83,44,0.50)" stroke="#b8532c" stroke-width="1.3483"><title>row 26 mod 2 : A601 (FRONT, OUTWARD, POSITIVE)</title></rect>
+<text x="-103.1359" y="-45.7891" transform="rotate(180 -103.1359 -45.7891)" font-size="10.4865" fill="#1c2b3a" text-anchor="middle" dominant-baseline="central" pointer-events="none">A601 R26 M2</text>
+<rect x="28.137900000000002" y="-63.2891" width="159.996" height="35.0" fill="none" stroke="#516576" stroke-width="0.8988" stroke-opacity="0.75"/>
+<rect x="38.1379" y="-55.046099999999996" width="129.996" height="18.513999999999996" fill="rgba(184,83,44,0.50)" stroke="#b8532c" stroke-width="1.3483"><title>row 26 mod 3 : A600 (FRONT, OUTWARD, NEGATIVE)</title></rect>
+<text x="103.1359" y="-45.7891" transform="rotate(180 103.1359 -45.7891)" font-size="10.4865" fill="#1c2b3a" text-anchor="middle" dominant-baseline="central" pointer-events="none">A600 R26 M3</text>
+<rect x="265.32089999999994" y="-63.2891" width="159.99600000000004" height="35.0" fill="none" stroke="#516576" stroke-width="0.8988" stroke-opacity="0.75"/>
+<rect x="275.32089999999994" y="-55.046099999999996" width="129.99600000000004" height="18.513999999999996" fill="rgba(184,83,44,0.50)" stroke="#b8532c" stroke-width="1.3483"><title>row 26 mod 5 : A600 (FRONT, OUTWARD, NEGATIVE)</title></rect>
+<text x="340.3189" y="-45.7891" transform="rotate(180 340.3189 -45.7891)" font-size="10.4865" fill="#1c2b3a" text-anchor="middle" dominant-baseline="central" pointer-events="none">A600 R26 M5</text>
+<rect x="-336.99" y="-99.2891" width="159.996" height="35.0" fill="none" stroke="#516576" stroke-width="0.8988" stroke-opacity="0.75"/>
+<rect x="-316.99" y="-91.04610000000001" width="129.996" height="18.51400000000001" fill="rgba(184,83,44,0.50)" stroke="#b8532c" stroke-width="1.3483"><title>row 28 mod 1 : A601 (FRONT, OUTWARD, POSITIVE)</title></rect>
+<text x="-251.99200000000002" y="-81.7891" transform="rotate(180 -251.99200000000002 -81.7891)" font-size="10.4865" fill="#1c2b3a" text-anchor="middle" dominant-baseline="central" pointer-events="none">A601 R28 M1</text>
+<rect x="-74.998" y="-99.2891" width="159.996" height="35.0" fill="none" stroke="#516576" stroke-width="0.8988" stroke-opacity="0.75"/>
+<rect x="-64.998" y="-91.04610000000001" width="129.996" height="18.51400000000001" fill="rgba(184,83,44,0.50)" stroke="#b8532c" stroke-width="1.3483"><title>row 28 mod 3 : A600 (FRONT, OUTWARD, NEGATIVE)</title></rect>
+<text x="0.0" y="-81.7891" transform="rotate(180 0.0 -81.7891)" font-size="10.4865" fill="#1c2b3a" text-anchor="middle" dominant-baseline="central" pointer-events="none">A600 R28 M3</text>
+<rect x="176.994" y="-99.2891" width="159.996" height="35.0" fill="none" stroke="#516576" stroke-width="0.8988" stroke-opacity="0.75"/>
+<rect x="186.994" y="-91.04610000000001" width="129.996" height="18.51400000000001" fill="rgba(184,83,44,0.50)" stroke="#b8532c" stroke-width="1.3483"><title>row 28 mod 5 : A600 (FRONT, OUTWARD, NEGATIVE)</title></rect>
+<text x="251.99200000000002" y="-81.7891" transform="rotate(180 251.99200000000002 -81.7891)" font-size="10.4865" fill="#1c2b3a" text-anchor="middle" dominant-baseline="central" pointer-events="none">A600 R28 M5</text>
+<rect x="-336.99" y="-135.28910000000002" width="159.996" height="35.000000000000014" fill="none" stroke="#516576" stroke-width="0.8988" stroke-opacity="0.75"/>
+<rect x="-316.99" y="-127.04610000000001" width="129.996" height="18.51400000000001" fill="rgba(184,83,44,0.50)" stroke="#b8532c" stroke-width="1.3483"><title>row 30 mod 1 : A601 (FRONT, OUTWARD, POSITIVE)</title></rect>
+<text x="-251.99200000000002" y="-117.7891" transform="rotate(180 -251.99200000000002 -117.7891)" font-size="10.4865" fill="#1c2b3a" text-anchor="middle" dominant-baseline="central" pointer-events="none">A601 R30 M1</text>
+<rect x="-74.998" y="-135.28910000000002" width="159.996" height="35.000000000000014" fill="none" stroke="#516576" stroke-width="0.8988" stroke-opacity="0.75"/>
+<rect x="-64.998" y="-127.04610000000001" width="129.996" height="18.51400000000001" fill="rgba(184,83,44,0.50)" stroke="#b8532c" stroke-width="1.3483"><title>row 30 mod 3 : A600 (FRONT, OUTWARD, NEGATIVE)</title></rect>
+<text x="0.0" y="-117.7891" transform="rotate(180 0.0 -117.7891)" font-size="10.4865" fill="#1c2b3a" text-anchor="middle" dominant-baseline="central" pointer-events="none">A600 R30 M3</text>
+<rect x="176.994" y="-135.28910000000002" width="159.996" height="35.000000000000014" fill="none" stroke="#516576" stroke-width="0.8988" stroke-opacity="0.75"/>
+<rect x="186.994" y="-127.04610000000001" width="129.996" height="18.51400000000001" fill="rgba(184,83,44,0.50)" stroke="#b8532c" stroke-width="1.3483"><title>row 30 mod 5 : A600 (FRONT, OUTWARD, NEGATIVE)</title></rect>
+<text x="251.99200000000002" y="-117.7891" transform="rotate(180 251.99200000000002 -117.7891)" font-size="10.4865" fill="#1c2b3a" text-anchor="middle" dominant-baseline="central" pointer-events="none">A600 R30 M5</text>
+<rect x="-273.99199999999996" y="-171.2891" width="159.99599999999998" height="35.0" fill="none" stroke="#516576" stroke-width="0.8988" stroke-opacity="0.75"/>
+<rect x="-253.992" y="-163.0461" width="129.996" height="18.51400000000001" fill="rgba(184,83,44,0.50)" stroke="#b8532c" stroke-width="1.3483"><title>row 32 mod 1 : A601 (FRONT, OUTWARD, POSITIVE)</title></rect>
+<text x="-188.99399999999997" y="-153.7891" transform="rotate(180 -188.99399999999997 -153.7891)" font-size="10.4865" fill="#1c2b3a" text-anchor="middle" dominant-baseline="central" pointer-events="none">A601 R32 M1</text>
+<rect x="-12.000000000000014" y="-171.2891" width="159.99599999999998" height="35.0" fill="none" stroke="#516576" stroke-width="0.8988" stroke-opacity="0.75"/>
+<rect x="-2.000000000000014" y="-163.0461" width="129.996" height="18.51400000000001" fill="rgba(184,83,44,0.50)" stroke="#b8532c" stroke-width="1.3483"><title>row 32 mod 3 : A600 (FRONT, OUTWARD, NEGATIVE)</title></rect>
+<text x="62.99799999999999" y="-153.7891" transform="rotate(180 62.99799999999999 -153.7891)" font-size="10.4865" fill="#1c2b3a" text-anchor="middle" dominant-baseline="central" pointer-events="none">A600 R32 M3</text>
+<rect x="234.415" y="-171.2891" width="159.996" height="35.0" fill="none" stroke="#516576" stroke-width="0.8988" stroke-opacity="0.75"/>
+<rect x="244.415" y="-163.0461" width="129.996" height="18.51400000000001" fill="rgba(184,83,44,0.50)" stroke="#b8532c" stroke-width="1.3483"><title>row 32 mod 5 : A600 (FRONT, OUTWARD, NEGATIVE)</title></rect>
+<text x="309.413" y="-153.7891" transform="rotate(180 309.413 -153.7891)" font-size="10.4865" fill="#1c2b3a" text-anchor="middle" dominant-baseline="central" pointer-events="none">A600 R32 M5</text>
+<rect x="-273.99199999999996" y="-204.25" width="159.99599999999998" height="32.0" fill="none" stroke="#516576" stroke-width="0.8988" stroke-opacity="0.75"/>
+<rect x="-253.992" y="-197.507" width="129.996" height="18.51400000000001" fill="rgba(184,83,44,0.50)" stroke="#b8532c" stroke-width="1.3483"><title>row 34 mod 1 : B601 (FRONT, OUTWARD, POSITIVE)</title></rect>
+<text x="-188.99399999999997" y="-188.25" transform="rotate(180 -188.99399999999997 -188.25)" font-size="10.4865" fill="#1c2b3a" text-anchor="middle" dominant-baseline="central" pointer-events="none">B601 R34 M1</text>
+<rect x="-12.000000000000014" y="-204.25" width="159.99599999999998" height="32.0" fill="none" stroke="#516576" stroke-width="0.8988" stroke-opacity="0.75"/>
+<rect x="-2.000000000000014" y="-197.507" width="129.996" height="18.51400000000001" fill="rgba(184,83,44,0.50)" stroke="#b8532c" stroke-width="1.3483"><title>row 34 mod 3 : B600 (FRONT, OUTWARD, NEGATIVE)</title></rect>
+<text x="62.99799999999999" y="-188.25" transform="rotate(180 62.99799999999999 -188.25)" font-size="10.4865" fill="#1c2b3a" text-anchor="middle" dominant-baseline="central" pointer-events="none">B600 R34 M3</text>
+<rect x="218.39789999999996" y="-204.25" width="159.996" height="32.0" fill="none" stroke="#516576" stroke-width="0.8988" stroke-opacity="0.75"/>
+<rect x="228.39789999999996" y="-197.507" width="129.996" height="18.51400000000001" fill="rgba(184,83,44,0.50)" stroke="#b8532c" stroke-width="1.3483"><title>row 34 mod 5 : B600 (FRONT, OUTWARD, NEGATIVE)</title></rect>
+<text x="293.3959" y="-188.25" transform="rotate(180 293.3959 -188.25)" font-size="10.4865" fill="#1c2b3a" text-anchor="middle" dominant-baseline="central" pointer-events="none">B600 R34 M5</text>
+<rect x="-273.99199999999996" y="-237.25" width="159.99599999999998" height="32.0" fill="none" stroke="#516576" stroke-width="0.8988" stroke-opacity="0.75"/>
+<rect x="-253.992" y="-230.507" width="129.996" height="18.51400000000001" fill="rgba(184,83,44,0.50)" stroke="#b8532c" stroke-width="1.3483"><title>row 36 mod 1 : B601 (FRONT, OUTWARD, POSITIVE)</title></rect>
+<text x="-188.99399999999997" y="-221.25" transform="rotate(180 -188.99399999999997 -221.25)" font-size="10.4865" fill="#1c2b3a" text-anchor="middle" dominant-baseline="central" pointer-events="none">B601 R36 M1</text>
+<rect x="-12.000000000000014" y="-237.25" width="159.99599999999998" height="32.0" fill="none" stroke="#516576" stroke-width="0.8988" stroke-opacity="0.75"/>
+<rect x="-2.000000000000014" y="-230.507" width="129.996" height="18.51400000000001" fill="rgba(184,83,44,0.50)" stroke="#b8532c" stroke-width="1.3483"><title>row 36 mod 3 : B600 (FRONT, OUTWARD, NEGATIVE)</title></rect>
+<text x="62.99799999999999" y="-221.25" transform="rotate(180 62.99799999999999 -221.25)" font-size="10.4865" fill="#1c2b3a" text-anchor="middle" dominant-baseline="central" pointer-events="none">B600 R36 M3</text>
+<rect x="198.62980000000002" y="-237.25" width="159.996" height="32.0" fill="none" stroke="#516576" stroke-width="0.8988" stroke-opacity="0.75"/>
+<rect x="208.62980000000002" y="-230.507" width="129.996" height="18.51400000000001" fill="rgba(184,83,44,0.50)" stroke="#b8532c" stroke-width="1.3483"><title>row 36 mod 5 : B600 (FRONT, OUTWARD, NEGATIVE)</title></rect>
+<text x="273.62780000000004" y="-221.25" transform="rotate(180 273.62780000000004 -221.25)" font-size="10.4865" fill="#1c2b3a" text-anchor="middle" dominant-baseline="central" pointer-events="none">B600 R36 M5</text>
+<rect x="-334.4622" y="-270.25" width="159.996" height="32.0" fill="none" stroke="#516576" stroke-width="0.8988" stroke-opacity="0.75"/>
+<rect x="-314.4622" y="-263.507" width="129.996" height="18.51400000000001" fill="rgba(184,83,44,0.50)" stroke="#b8532c" stroke-width="1.3483"><title>row 38 mod 0 : B601 (FRONT, OUTWARD, POSITIVE)</title></rect>
+<text x="-249.4642" y="-254.25" transform="rotate(180 -249.4642 -254.25)" font-size="10.4865" fill="#1c2b3a" text-anchor="middle" dominant-baseline="central" pointer-events="none">B601 R38 M0</text>
+<rect x="-74.998" y="-270.25" width="159.996" height="32.0" fill="none" stroke="#516576" stroke-width="0.8988" stroke-opacity="0.75"/>
+<rect x="-64.998" y="-263.507" width="129.996" height="18.51400000000001" fill="rgba(184,83,44,0.50)" stroke="#b8532c" stroke-width="1.3483"><title>row 38 mod 2 : B600 (FRONT, OUTWARD, NEGATIVE)</title></rect>
+<text x="0.0" y="-254.25" transform="rotate(180 0.0 -254.25)" font-size="10.4865" fill="#1c2b3a" text-anchor="middle" dominant-baseline="central" pointer-events="none">B600 R38 M2</text>
+<rect x="174.4662" y="-270.25" width="159.996" height="32.0" fill="none" stroke="#516576" stroke-width="0.8988" stroke-opacity="0.75"/>
+<rect x="184.4662" y="-263.507" width="129.996" height="18.51400000000001" fill="rgba(184,83,44,0.50)" stroke="#b8532c" stroke-width="1.3483"><title>row 38 mod 4 : B600 (FRONT, OUTWARD, NEGATIVE)</title></rect>
+<text x="249.4642" y="-254.25" transform="rotate(180 249.4642 -254.25)" font-size="10.4865" fill="#1c2b3a" text-anchor="middle" dominant-baseline="central" pointer-events="none">B600 R38 M4</text>
+<rect x="-304.8597" y="-303.25" width="159.996" height="32.0" fill="none" stroke="#516576" stroke-width="0.8988" stroke-opacity="0.75"/>
+<rect x="-284.8597" y="-296.507" width="129.996" height="18.51400000000001" fill="rgba(184,83,44,0.50)" stroke="#b8532c" stroke-width="1.3483"><title>row 40 mod 0 : B601 (FRONT, OUTWARD, POSITIVE)</title></rect>
+<text x="-219.86169999999998" y="-287.25" transform="rotate(180 -219.86169999999998 -287.25)" font-size="10.4865" fill="#1c2b3a" text-anchor="middle" dominant-baseline="central" pointer-events="none">B601 R40 M0</text>
+<rect x="-74.998" y="-303.25" width="159.996" height="32.0" fill="none" stroke="#516576" stroke-width="0.8988" stroke-opacity="0.75"/>
+<rect x="-64.998" y="-296.507" width="129.996" height="18.51400000000001" fill="rgba(184,83,44,0.50)" stroke="#b8532c" stroke-width="1.3483"><title>row 40 mod 2 : B600 (FRONT, OUTWARD, NEGATIVE)</title></rect>
+<text x="0.0" y="-287.25" transform="rotate(180 0.0 -287.25)" font-size="10.4865" fill="#1c2b3a" text-anchor="middle" dominant-baseline="central" pointer-events="none">B600 R40 M2</text>
+<rect x="144.86369999999997" y="-303.25" width="159.996" height="32.0" fill="none" stroke="#516576" stroke-width="0.8988" stroke-opacity="0.75"/>
+<rect x="154.86369999999997" y="-296.507" width="129.996" height="18.51400000000001" fill="rgba(184,83,44,0.50)" stroke="#b8532c" stroke-width="1.3483"><title>row 40 mod 4 : B600 (FRONT, OUTWARD, NEGATIVE)</title></rect>
+<text x="219.86169999999998" y="-287.25" transform="rotate(180 219.86169999999998 -287.25)" font-size="10.4865" fill="#1c2b3a" text-anchor="middle" dominant-baseline="central" pointer-events="none">B600 R40 M4</text>
+<rect x="-268.0223" y="-336.25" width="159.99599999999998" height="32.0" fill="none" stroke="#516576" stroke-width="0.8988" stroke-opacity="0.75"/>
+<rect x="-248.0223" y="-329.507" width="129.996" height="18.51400000000001" fill="rgba(184,83,44,0.50)" stroke="#b8532c" stroke-width="1.3483"><title>row 42 mod 0 : B601 (FRONT, OUTWARD, POSITIVE)</title></rect>
+<text x="-183.02429999999998" y="-320.25" transform="rotate(180 -183.02429999999998 -320.25)" font-size="10.4865" fill="#1c2b3a" text-anchor="middle" dominant-baseline="central" pointer-events="none">B601 R42 M0</text>
+<rect x="-12.000000000000014" y="-336.25" width="159.99599999999998" height="32.0" fill="none" stroke="#516576" stroke-width="0.8988" stroke-opacity="0.75"/>
+<rect x="-2.000000000000014" y="-329.507" width="129.996" height="18.51400000000001" fill="rgba(184,83,44,0.50)" stroke="#b8532c" stroke-width="1.3483"><title>row 42 mod 2 : B600 (FRONT, OUTWARD, NEGATIVE)</title></rect>
+<text x="62.99799999999999" y="-320.25" transform="rotate(180 62.99799999999999 -320.25)" font-size="10.4865" fill="#1c2b3a" text-anchor="middle" dominant-baseline="central" pointer-events="none">B600 R42 M2</text>
+<rect x="-220.3507" y="-369.25" width="159.996" height="32.0" fill="none" stroke="#516576" stroke-width="0.8988" stroke-opacity="0.75"/>
+<rect x="-200.3507" y="-362.507" width="129.996" height="18.51400000000001" fill="rgba(184,83,44,0.50)" stroke="#b8532c" stroke-width="1.3483"><title>row 44 mod 0 : B601 (FRONT, OUTWARD, POSITIVE)</title></rect>
+<text x="-135.35269999999997" y="-353.25" transform="rotate(180 -135.35269999999997 -353.25)" font-size="10.4865" fill="#1c2b3a" text-anchor="middle" dominant-baseline="central" pointer-events="none">B601 R44 M0</text>
+<rect x="-12.000000000000014" y="-369.25" width="159.99599999999998" height="32.0" fill="none" stroke="#516576" stroke-width="0.8988" stroke-opacity="0.75"/>
+<rect x="-2.000000000000014" y="-362.507" width="129.996" height="18.51400000000001" fill="rgba(184,83,44,0.50)" stroke="#b8532c" stroke-width="1.3483"><title>row 44 mod 2 : B600 (FRONT, OUTWARD, NEGATIVE)</title></rect>
+<text x="62.99799999999999" y="-353.25" transform="rotate(180 62.99799999999999 -353.25)" font-size="10.4865" fill="#1c2b3a" text-anchor="middle" dominant-baseline="central" pointer-events="none">B600 R44 M2</text>
+<rect x="-12.000000000000014" y="-402.25" width="159.99599999999998" height="32.0" fill="none" stroke="#516576" stroke-width="0.8988" stroke-opacity="0.75"/>
+<rect x="-2.000000000000014" y="-395.507" width="129.996" height="18.51400000000001" fill="rgba(184,83,44,0.50)" stroke="#b8532c" stroke-width="1.3483"><title>row 46 mod 1 : B600 (FRONT, OUTWARD, NEGATIVE)</title></rect>
+<text x="62.99799999999999" y="-386.25" transform="rotate(180 62.99799999999999 -386.25)" font-size="10.4865" fill="#1c2b3a" text-anchor="middle" dominant-baseline="central" pointer-events="none">B600 R46 M1</text>
+<circle cx="0" cy="0" r="430.0" fill="none" stroke="#1c2b3a" stroke-width="2.3969" stroke-dasharray="10.486 7.490"/>
+</g>
+<line x1="82" y1="606" x2="48" y2="606" stroke="#1c2b3a" stroke-width="1.6"/>
+<polygon points="48,606 55,602 55,610" fill="#1c2b3a"/>
+<text x="44" y="600" font-size="12" font-weight="bold" fill="#1c2b3a" text-anchor="end">+x</text>
+<line x1="82" y1="606" x2="82" y2="572" stroke="#1c2b3a" stroke-width="1.6"/>
+<polygon points="82,572 78,579 86,579" fill="#1c2b3a"/>
+<text x="90" y="576" font-size="12" font-weight="bold" fill="#1c2b3a">+y</text>
+<circle cx="82" cy="606" r="9" fill="#f1ede1" stroke="#1c2b3a" stroke-width="1.4"/>
+<line x1="76.42" y1="600.42" x2="87.58" y2="611.58" stroke="#1c2b3a" stroke-width="1.4"/>
+<line x1="76.42" y1="611.58" x2="87.58" y2="600.42" stroke="#1c2b3a" stroke-width="1.4"/>
+<text x="97" y="610" font-size="12" font-weight="bold" fill="#1c2b3a">+z (into page)</text>
+<text x="688" y="40" font-size="15" font-weight="bold" fill="#1c2b3a">Disk z=-850mm Tiling — front, outward only</text>
+<text x="688" y="68" font-size="11" fill="#516576">TITLE BLOCK</text>
+<line x1="688" y1="76" x2="1088" y2="76" stroke="#c9bd98"/>
+<text x="688" y="96" font-size="12" fill="#516576">filter</text>
+<text x="1088" y="96" font-size="12" fill="#1c2b3a" text-anchor="end">front, outward only</text>
+<text x="688" y="116" font-size="12" fill="#516576">disk</text>
+<text x="1088" y="116" font-size="12" fill="#1c2b3a" text-anchor="end">ED3</text>
+<text x="688" y="136" font-size="12" fill="#516576">z_center_mm</text>
+<text x="1088" y="136" font-size="12" fill="#1c2b3a" text-anchor="end">-850.0000</text>
+<text x="688" y="156" font-size="12" fill="#516576">outer_radius_mm</text>
+<text x="1088" y="156" font-size="12" fill="#1c2b3a" text-anchor="end">430.0000</text>
+<text x="688" y="176" font-size="12" fill="#516576">outer_radius_target</text>
+<text x="1088" y="176" font-size="12" fill="#1c2b3a" text-anchor="end">module</text>
+<text x="688" y="196" font-size="12" fill="#516576">module_r_out_mm</text>
+<text x="1088" y="196" font-size="12" fill="#1c2b3a" text-anchor="end">430.0000</text>
+<text x="688" y="216" font-size="12" fill="#516576">sensor_r_out_mm</text>
+<text x="1088" y="216" font-size="12" fill="#1c2b3a" text-anchor="end">419.2727</text>
+<text x="688" y="236" font-size="12" fill="#516576">sensor_r_in_mm (net of 10mm margin)</text>
+<text x="1088" y="236" font-size="12" fill="#1c2b3a" text-anchor="end">386.7089</text>
+<text x="688" y="256" font-size="12" fill="#516576">sensor_r_bp_mm</text>
+<text x="1088" y="256" font-size="12" fill="#1c2b3a" text-anchor="end">66.9669</text>
+<text x="688" y="276" font-size="12" fill="#516576">rows w/ a module shown</text>
+<text x="1088" y="276" font-size="12" fill="#1c2b3a" text-anchor="end">24</text>
+<text x="688" y="296" font-size="12" fill="#516576">modules shown</text>
+<text x="1088" y="296" font-size="12" fill="#1c2b3a" text-anchor="end">66</text>
+<text x="688" y="330" font-size="11" fill="#516576">OPENING</text>
+<line x1="688" y1="338" x2="1088" y2="338" stroke="#c9bd98"/>
+<text x="688" y="358" font-size="11.5" fill="#1c2b3a">primitive 0: cx=0.000 r=34.900 mm</text>
+<text x="688" y="378" font-size="11.5" fill="#1c2b3a">primitive 1: cx=21.254 r=15.900 mm</text>
+<text x="688" y="412" font-size="11" fill="#516576">LEGEND</text>
+<line x1="688" y1="420" x2="1088" y2="420" stroke="#c9bd98"/>
+<rect x="688" y="429" width="16" height="11" fill="rgba(184,83,44,0.50)" stroke="#b8532c"/>
+<text x="712" y="438" font-size="11.5" fill="#1c2b3a">front-face active area (bridges ridges)</text>
+<rect x="688" y="449" width="16" height="11" fill="none" stroke="#516576"/>
+<text x="712" y="458" font-size="11.5" fill="#1c2b3a">baseplate footprint</text>
+<rect x="688" y="469" width="16" height="11" fill="rgba(161,58,58,0.16)" stroke="#a13a3a"/>
+<text x="712" y="478" font-size="11.5" fill="#1c2b3a">beam-pipe opening (excluded)</text>
+<line x1="688" y1="494" x2="708" y2="494" stroke="#1c2b3a" stroke-width="1.6" stroke-dasharray="4 3"/>
+<text x="712" y="498" font-size="11.5" fill="#1c2b3a">outer radius</text>
+</svg>

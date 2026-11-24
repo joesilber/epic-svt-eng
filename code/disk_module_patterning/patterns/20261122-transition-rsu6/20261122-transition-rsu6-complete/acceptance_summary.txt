@@ -1,0 +1,109 @@
+acceptance summary (Bz = 1.7 T) -- see acceptance_detail.csv for the full grid
+coverage = 1 - n_miss/n_thrown
+
+-- p = 0.5 GeV --
+                    all z0                |z0| < 50mm
+disk   inner    mid  outer        inner    mid  outer
+ED4    0.341  0.996  0.399        0.342  0.996  0.398
+ED3    0.380  0.995  0.436        0.383  0.995  0.436
+ED2    0.398  0.991  0.439        0.401  0.992  0.440
+ED1    0.425  0.985  0.401        0.430  0.986  0.395
+ED0    0.413  0.981  0.402        0.437  0.984  0.404
+HD0    0.410  0.981  0.403        0.436  0.984  0.407
+HD1    0.424  0.985  0.395        0.431  0.986  0.389
+HD2    0.409  0.993  0.443        0.413  0.993  0.444
+HD3    0.382  0.996  0.425        0.384  0.996  0.425
+HD4    0.417  0.996  0.439        0.418  0.996  0.437
+
+-- p = 2 GeV --
+                    all z0                |z0| < 50mm
+disk   inner    mid  outer        inner    mid  outer
+ED4    0.360  0.999  0.401        0.362  0.999  0.403
+ED3    0.395  0.998  0.438        0.396  0.998  0.437
+ED2    0.409  0.994  0.439        0.413  0.994  0.441
+ED1    0.431  0.985  0.389        0.440  0.986  0.389
+ED0    0.413  0.981  0.405        0.439  0.984  0.406
+HD0    0.413  0.981  0.401        0.437  0.985  0.403
+HD1    0.432  0.985  0.391        0.437  0.986  0.388
+HD2    0.420  0.995  0.442        0.422  0.995  0.440
+HD3    0.398  0.999  0.422        0.399  0.999  0.421
+HD4    0.438  1.000  0.439        0.440  1.000  0.440
+
+-- p = 10 GeV --
+                    all z0                |z0| < 50mm
+disk   inner    mid  outer        inner    mid  outer
+ED4    0.362  0.999  0.401        0.367  0.999  0.401
+ED3    0.397  0.998  0.437        0.399  0.998  0.437
+ED2    0.406  0.994  0.439        0.409  0.994  0.441
+ED1    0.429  0.986  0.393        0.439  0.986  0.396
+ED0    0.414  0.981  0.402        0.439  0.985  0.404
+HD0    0.410  0.981  0.401        0.435  0.984  0.403
+HD1    0.426  0.985  0.392        0.432  0.986  0.390
+HD2    0.420  0.995  0.444        0.421  0.995  0.442
+HD3    0.397  0.999  0.426        0.399  0.999  0.426
+HD4    0.439  1.000  0.440        0.439  1.000  0.442
+
+example miss records (one per disk/region with at least one miss, z0_bin=all):
+  p=0.5 disk=ED4 region=inner: x=-16.2mm y=50.7mm theta=176.99deg
+  p=0.5 disk=ED4 region=mid: x=-350.3mm y=162.1mm theta=156.66deg
+  p=0.5 disk=ED4 region=outer: x=165.7mm y=-396.8mm theta=157.31deg
+  p=0.5 disk=ED3 region=inner: x=-30.2mm y=-39.6mm theta=176.66deg
+  p=0.5 disk=ED3 region=mid: x=353.2mm y=35.1mm theta=156.92deg
+  p=0.5 disk=ED3 region=outer: x=-2.1mm y=408.7mm theta=154.43deg
+  p=0.5 disk=ED2 region=inner: x=17.6mm y=39.0mm theta=176.38deg
+  p=0.5 disk=ED2 region=mid: x=-152.1mm y=239.9mm theta=152.37deg
+  p=0.5 disk=ED2 region=outer: x=-378.5mm y=195.6mm theta=148.72deg
+  p=0.5 disk=ED1 region=inner: x=38.1mm y=19.6mm theta=175.10deg
+  p=0.5 disk=ED1 region=mid: x=216.5mm y=163.1mm theta=150.90deg
+  p=0.5 disk=ED1 region=outer: x=383.9mm y=-27.8mm theta=136.73deg
+  p=0.5 disk=ED0 region=inner: x=44.7mm y=-19.2mm theta=170.93deg
+  p=0.5 disk=ED0 region=mid: x=-103.1mm y=-80.8mm theta=138.97deg
+  p=0.5 disk=ED0 region=outer: x=80.4mm y=203.3mm theta=134.17deg
+  p=0.5 disk=HD0 region=inner: x=-4.1mm y=-31.9mm theta=9.97deg
+  p=0.5 disk=HD0 region=mid: x=128.6mm y=114.0mm theta=28.98deg
+  p=0.5 disk=HD0 region=outer: x=52.7mm y=218.7mm theta=33.90deg
+  p=0.5 disk=HD1 region=inner: x=2.2mm y=31.3mm theta=5.14deg
+  p=0.5 disk=HD1 region=mid: x=164.6mm y=114.0mm theta=27.95deg
+  p=0.5 disk=HD1 region=outer: x=248.1mm y=288.2mm theta=37.07deg
+  p=0.5 disk=HD2 region=inner: x=36.5mm y=-12.6mm theta=3.56deg
+  p=0.5 disk=HD2 region=mid: x=-95.6mm y=273.4mm theta=23.17deg
+  p=0.5 disk=HD2 region=outer: x=-346.7mm y=-212.0mm theta=29.79deg
+  p=0.5 disk=HD3 region=inner: x=22.9mm y=-59.4mm theta=3.88deg
+  p=0.5 disk=HD3 region=mid: x=207.4mm y=27.6mm theta=13.24deg
+  p=0.5 disk=HD3 region=outer: x=276.1mm y=-315.0mm theta=24.94deg
+  p=0.5 disk=HD4 region=inner: x=11.3mm y=-42.5mm theta=2.10deg
+  p=0.5 disk=HD4 region=mid: x=-200.3mm y=-171.3mm theta=12.73deg
+  p=0.5 disk=HD4 region=outer: x=-414.1mm y=-40.5mm theta=21.85deg
+  p=2 disk=ED4 region=inner: x=-29.9mm y=-37.9mm theta=177.36deg
+  p=2 disk=ED4 region=mid: x=327.0mm y=-0.7mm theta=162.47deg
+  p=2 disk=ED4 region=outer: x=-309.1mm y=-294.1mm theta=156.36deg
+  p=2 disk=ED3 region=inner: x=42.4mm y=4.3mm theta=176.82deg
+  p=2 disk=ED3 region=mid: x=211.6mm y=276.2mm theta=154.98deg
+  p=2 disk=ED3 region=outer: x=-413.0mm y=-104.0mm theta=155.42deg
+  p=2 disk=ED2 region=inner: x=-36.8mm y=1.9mm theta=176.40deg
+  p=2 disk=ED2 region=mid: x=83.7mm y=207.2mm theta=158.68deg
+  p=2 disk=ED2 region=outer: x=-283.7mm y=299.6mm theta=144.10deg
+  p=2 disk=ED1 region=inner: x=46.2mm y=2.9mm theta=173.69deg
+  p=2 disk=ED1 region=mid: x=-137.4mm y=229.3mm theta=144.58deg
+  p=2 disk=ED1 region=outer: x=-188.6mm y=349.1mm theta=137.50deg
+  p=2 disk=ED0 region=inner: x=-5.4mm y=35.7mm theta=168.49deg
+  p=2 disk=ED0 region=mid: x=6.8mm y=-177.2mm theta=138.02deg
+  p=2 disk=ED0 region=outer: x=-207.3mm y=32.1mm theta=140.96deg
+  p=2 disk=HD0 region=inner: x=-8.9mm y=34.5mm theta=9.75deg
+  p=2 disk=HD0 region=mid: x=-130.7mm y=113.9mm theta=32.28deg
+  p=2 disk=HD0 region=outer: x=137.9mm y=177.6mm theta=52.74deg
+  p=2 disk=HD1 region=inner: x=31.0mm y=24.0mm theta=5.79deg
+  p=2 disk=HD1 region=mid: x=-7.7mm y=245.5mm theta=29.64deg
+  p=2 disk=HD1 region=outer: x=327.9mm y=-213.4mm theta=39.61deg
+  p=2 disk=HD2 region=inner: x=-2.5mm y=52.7mm theta=4.64deg
+  p=2 disk=HD2 region=mid: x=229.2mm y=272.5mm theta=28.49deg
+  p=2 disk=HD2 region=outer: x=-359.0mm y=-231.4mm theta=32.96deg
+  p=2 disk=HD3 region=inner: x=-53.2mm y=-21.1mm theta=3.20deg
+  p=2 disk=HD3 region=mid: x=139.8mm y=354.5mm theta=20.37deg
+  p=2 disk=HD3 region=outer: x=-165.1mm y=389.9mm theta=23.78deg
+  p=2 disk=HD4 region=inner: x=2.9mm y=55.2mm theta=2.73deg
+  p=2 disk=HD4 region=mid: x=-129.9mm y=360.5mm theta=17.50deg
+  p=2 disk=HD4 region=outer: x=-250.0mm y=-335.1mm theta=18.21deg
+  (30 more not shown)
+
+completed normally

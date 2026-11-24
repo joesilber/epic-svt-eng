@@ -1,0 +1,424 @@
+
+=== ED4  sensor_r_in=387.7844mm ===
+
+--- top (n=80 LECs within R_in) ---
+  count= 10  x=  69.4980mm  y=[63.46, 81.05, 99.65, 116.97, 135.76, 258.75, 275.25, 291.75, 308.25, 374.25]
+  count=  9  x=-132.4960mm  y=[152.82, 171.79, 188.59, 207.76, 224.30, 242.25, 324.75, 341.25, 357.75]
+  count=  9  x= 132.4960mm  y=[152.82, 171.79, 188.59, 207.76, 224.30, 242.25, 324.75, 341.25, 357.75]
+  count=  9  x=-195.4940mm  y=[63.46, 81.05, 99.65, 116.97, 135.76, 258.75, 275.25, 291.75, 308.25]
+  count=  9  x= 195.4940mm  y=[63.46, 81.05, 99.65, 116.97, 135.76, 258.75, 275.25, 291.75, 308.25]
+  count=  6  x=-258.4920mm  y=[152.82, 171.79, 188.59, 207.76, 224.30, 242.25]
+  count=  6  x= 258.4920mm  y=[152.82, 171.79, 188.59, 207.76, 224.30, 242.25]
+  count=  5  x=-321.4900mm  y=[63.46, 81.05, 99.65, 116.97, 135.76]
+  count=  5  x= 321.4900mm  y=[63.46, 81.05, 99.65, 116.97, 135.76]
+  count=  1  x=-299.3431mm  y=[45.06*]  # * = beampipe row (blocked)
+  count=  1  x=-173.3471mm  y=[45.06*]  # * = beampipe row (blocked)
+  count=  1  x= 173.3471mm  y=[45.06*]  # * = beampipe row (blocked)
+  count=  1  x= 299.3431mm  y=[45.06*]  # * = beampipe row (blocked)
+  count=  1  x=-309.1922mm  y=[27.21*]  # * = beampipe row (blocked)
+  count=  1  x=-183.1962mm  y=[27.21*]  # * = beampipe row (blocked)
+  count=  1  x= 188.5082mm  y=[27.21*]  # * = beampipe row (blocked)
+  count=  1  x= 314.5042mm  y=[27.21*]  # * = beampipe row (blocked)
+  count=  1  x=-310.3920mm  y=[9.00*]  # * = beampipe row (blocked)
+  count=  1  x=-184.3960mm  y=[9.00*]  # * = beampipe row (blocked)
+  count=  1  x= 190.9013mm  y=[9.00*]  # * = beampipe row (blocked)
+  count=  1  x= 316.8973mm  y=[9.00*]  # * = beampipe row (blocked)
+
+--- bottom (n=80 LECs within R_in) ---
+  count= 10  x=  69.4980mm  y=[-372.75, -306.75, -290.25, -273.75, -257.25, -134.98, -117.79, -99.24, -81.79, -63.50]
+  count=  9  x=-195.4940mm  y=[-306.75, -290.25, -273.75, -257.25, -134.98, -117.79, -99.24, -81.79, -63.50]
+  count=  9  x= 195.4940mm  y=[-306.75, -290.25, -273.75, -257.25, -134.98, -117.79, -99.24, -81.79, -63.50]
+  count=  9  x=-132.4960mm  y=[-356.25, -339.75, -323.25, -240.75, -224.25, -206.46, -189.79, -170.72, -153.79]
+  count=  9  x= 132.4960mm  y=[-356.25, -339.75, -323.25, -240.75, -224.25, -206.46, -189.79, -170.72, -153.79]
+  count=  6  x=-258.4920mm  y=[-240.75, -224.25, -206.46, -189.79, -170.72, -153.79]
+  count=  6  x= 258.4920mm  y=[-240.75, -224.25, -206.46, -189.79, -170.72, -153.79]
+  count=  5  x=-321.4900mm  y=[-134.98, -117.79, -99.24, -81.79, -63.50]
+  count=  5  x= 321.4900mm  y=[-134.98, -117.79, -99.24, -81.79, -63.50]
+  count=  1  x=-310.3920mm  y=[-9.79*]  # * = beampipe row (blocked)
+  count=  1  x=-184.3960mm  y=[-9.79*]  # * = beampipe row (blocked)
+  count=  1  x= 190.9013mm  y=[-9.79*]  # * = beampipe row (blocked)
+  count=  1  x= 316.8973mm  y=[-9.79*]  # * = beampipe row (blocked)
+  count=  1  x=-309.0489mm  y=[-27.77*]  # * = beampipe row (blocked)
+  count=  1  x=-183.0529mm  y=[-27.77*]  # * = beampipe row (blocked)
+  count=  1  x= 188.2066mm  y=[-27.77*]  # * = beampipe row (blocked)
+  count=  1  x= 314.2026mm  y=[-27.77*]  # * = beampipe row (blocked)
+  count=  1  x=-298.6299mm  y=[-45.79*]  # * = beampipe row (blocked)
+  count=  1  x=-172.6339mm  y=[-45.79*]  # * = beampipe row (blocked)
+  count=  1  x= 172.6339mm  y=[-45.79*]  # * = beampipe row (blocked)
+  count=  1  x= 298.6299mm  y=[-45.79*]  # * = beampipe row (blocked)
+
+=== ED3  sensor_r_in=386.7089mm ===
+
+--- top (n=80 LECs within R_in) ---
+  count= 10  x=  69.4980mm  y=[63.47, 80.94, 99.62, 116.77, 135.68, 252.75, 269.25, 285.75, 302.25, 368.25]
+  count=  9  x=-132.4960mm  y=[152.50, 170.25, 186.75, 203.25, 219.75, 236.25, 318.75, 335.25, 351.75]
+  count=  9  x= 132.4960mm  y=[152.50, 170.25, 186.75, 203.25, 219.75, 236.25, 318.75, 335.25, 351.75]
+  count=  9  x=-195.4940mm  y=[63.47, 80.94, 99.62, 116.77, 135.68, 252.75, 269.25, 285.75, 302.25]
+  count=  9  x= 195.4940mm  y=[63.47, 80.94, 99.62, 116.77, 135.68, 252.75, 269.25, 285.75, 302.25]
+  count=  6  x=-258.4920mm  y=[152.50, 170.25, 186.75, 203.25, 219.75, 236.25]
+  count=  6  x= 258.4920mm  y=[152.50, 170.25, 186.75, 203.25, 219.75, 236.25]
+  count=  5  x=-321.4900mm  y=[63.47, 80.94, 99.62, 116.77, 135.68]
+  count=  5  x= 321.4900mm  y=[63.47, 80.94, 99.62, 116.77, 135.68]
+  count=  1  x=-299.3834mm  y=[45.02*]  # * = beampipe row (blocked)
+  count=  1  x=-173.3874mm  y=[45.02*]  # * = beampipe row (blocked)
+  count=  1  x= 173.3874mm  y=[45.02*]  # * = beampipe row (blocked)
+  count=  1  x= 299.3834mm  y=[45.02*]  # * = beampipe row (blocked)
+  count=  1  x=-309.1878mm  y=[27.23*]  # * = beampipe row (blocked)
+  count=  1  x=-183.1918mm  y=[27.23*]  # * = beampipe row (blocked)
+  count=  1  x= 184.2482mm  y=[27.23*]  # * = beampipe row (blocked)
+  count=  1  x= 310.2442mm  y=[27.23*]  # * = beampipe row (blocked)
+  count=  1  x=-310.3920mm  y=[9.00*]  # * = beampipe row (blocked)
+  count=  1  x=-184.3960mm  y=[9.00*]  # * = beampipe row (blocked)
+  count=  1  x= 186.6504mm  y=[9.00*]  # * = beampipe row (blocked)
+  count=  1  x= 312.6464mm  y=[9.00*]  # * = beampipe row (blocked)
+
+--- bottom (n=80 LECs within R_in) ---
+  count= 10  x=  69.4980mm  y=[-369.75, -303.75, -287.25, -270.75, -254.25, -134.78, -117.79, -99.10, -81.79, -63.41]
+  count=  9  x=-195.4940mm  y=[-303.75, -287.25, -270.75, -254.25, -134.78, -117.79, -99.10, -81.79, -63.41]
+  count=  9  x= 195.4940mm  y=[-303.75, -287.25, -270.75, -254.25, -134.78, -117.79, -99.10, -81.79, -63.41]
+  count=  9  x=-132.4960mm  y=[-353.25, -336.75, -320.25, -237.75, -221.25, -204.75, -188.25, -170.46, -153.79]
+  count=  9  x= 132.4960mm  y=[-353.25, -336.75, -320.25, -237.75, -221.25, -204.75, -188.25, -170.46, -153.79]
+  count=  6  x=-258.4920mm  y=[-237.75, -221.25, -204.75, -188.25, -170.46, -153.79]
+  count=  6  x= 258.4920mm  y=[-237.75, -221.25, -204.75, -188.25, -170.46, -153.79]
+  count=  5  x=-321.4900mm  y=[-134.78, -117.79, -99.10, -81.79, -63.41]
+  count=  5  x= 321.4900mm  y=[-134.78, -117.79, -99.10, -81.79, -63.41]
+  count=  1  x=-310.3920mm  y=[-9.79*]  # * = beampipe row (blocked)
+  count=  1  x=-184.3960mm  y=[-9.79*]  # * = beampipe row (blocked)
+  count=  1  x= 186.6504mm  y=[-9.79*]  # * = beampipe row (blocked)
+  count=  1  x= 312.6464mm  y=[-9.79*]  # * = beampipe row (blocked)
+  count=  1  x=-309.0572mm  y=[-27.73*]  # * = beampipe row (blocked)
+  count=  1  x=-183.0612mm  y=[-27.73*]  # * = beampipe row (blocked)
+  count=  1  x= 183.9733mm  y=[-27.73*]  # * = beampipe row (blocked)
+  count=  1  x= 309.9693mm  y=[-27.73*]  # * = beampipe row (blocked)
+  count=  1  x=-298.6299mm  y=[-45.79*]  # * = beampipe row (blocked)
+  count=  1  x=-172.6339mm  y=[-45.79*]  # * = beampipe row (blocked)
+  count=  1  x= 172.6339mm  y=[-45.79*]  # * = beampipe row (blocked)
+  count=  1  x= 298.6299mm  y=[-45.79*]  # * = beampipe row (blocked)
+
+=== ED2  sensor_r_in=385.2894mm ===
+
+--- top (n=81 LECs within R_in) ---
+  count= 10  x=-132.4960mm  y=[150.75, 167.25, 183.75, 200.25, 216.75, 233.25, 249.75, 315.75, 332.25, 348.75]
+  count= 10  x= 132.4960mm  y=[150.75, 167.25, 183.75, 200.25, 216.75, 233.25, 249.75, 315.75, 332.25, 348.75]
+  count=  9  x=  69.4980mm  y=[63.48, 80.71, 99.54, 116.34, 134.25, 266.25, 282.75, 299.25, 365.25]
+  count=  8  x=-195.4940mm  y=[63.48, 80.71, 99.54, 116.34, 134.25, 266.25, 282.75, 299.25]
+  count=  8  x= 195.4940mm  y=[63.48, 80.71, 99.54, 116.34, 134.25, 266.25, 282.75, 299.25]
+  count=  7  x=-258.4920mm  y=[150.75, 167.25, 183.75, 200.25, 216.75, 233.25, 249.75]
+  count=  7  x= 258.4920mm  y=[150.75, 167.25, 183.75, 200.25, 216.75, 233.25, 249.75]
+  count=  5  x=-321.4900mm  y=[63.48, 80.71, 99.54, 116.34, 134.25]
+  count=  5  x= 321.4900mm  y=[63.48, 80.71, 99.54, 116.34, 134.25]
+  count=  1  x=-299.4657mm  y=[44.93*]  # * = beampipe row (blocked)
+  count=  1  x=-173.4697mm  y=[44.93*]  # * = beampipe row (blocked)
+  count=  1  x= 173.4697mm  y=[44.93*]  # * = beampipe row (blocked)
+  count=  1  x= 299.4657mm  y=[44.93*]  # * = beampipe row (blocked)
+  count=  1  x=-309.1801mm  y=[27.26*]  # * = beampipe row (blocked)
+  count=  1  x=-183.1841mm  y=[27.26*]  # * = beampipe row (blocked)
+  count=  1  x= 183.1841mm  y=[27.26*]  # * = beampipe row (blocked)
+  count=  1  x= 309.1801mm  y=[27.26*]  # * = beampipe row (blocked)
+  count=  1  x=-310.3920mm  y=[9.00*]  # * = beampipe row (blocked)
+  count=  1  x=-184.3960mm  y=[9.00*]  # * = beampipe row (blocked)
+  count=  1  x= 184.3960mm  y=[9.00*]  # * = beampipe row (blocked)
+  count=  1  x= 310.3920mm  y=[9.00*]  # * = beampipe row (blocked)
+
+--- bottom (n=80 LECs within R_in) ---
+  count= 10  x=  69.4980mm  y=[-366.75, -300.75, -284.25, -267.75, -251.25, -134.36, -117.78, -98.80, -81.79, -63.24]
+  count=  9  x=-195.4940mm  y=[-300.75, -284.25, -267.75, -251.25, -134.36, -117.78, -98.80, -81.79, -63.24]
+  count=  9  x= 195.4940mm  y=[-300.75, -284.25, -267.75, -251.25, -134.36, -117.78, -98.80, -81.79, -63.24]
+  count=  9  x=-132.4960mm  y=[-350.25, -333.75, -317.25, -234.75, -218.25, -201.75, -185.25, -168.75, -152.25]
+  count=  9  x= 132.4960mm  y=[-350.25, -333.75, -317.25, -234.75, -218.25, -201.75, -185.25, -168.75, -152.25]
+  count=  6  x=-258.4920mm  y=[-234.75, -218.25, -201.75, -185.25, -168.75, -152.25]
+  count=  6  x= 258.4920mm  y=[-234.75, -218.25, -201.75, -185.25, -168.75, -152.25]
+  count=  5  x=-321.4900mm  y=[-134.36, -117.78, -98.80, -81.79, -63.24]
+  count=  5  x= 321.4900mm  y=[-134.36, -117.78, -98.80, -81.79, -63.24]
+  count=  1  x=-310.3920mm  y=[-9.79*]  # * = beampipe row (blocked)
+  count=  1  x=-184.3960mm  y=[-9.79*]  # * = beampipe row (blocked)
+  count=  1  x= 184.3960mm  y=[-9.79*]  # * = beampipe row (blocked)
+  count=  1  x= 310.3920mm  y=[-9.79*]  # * = beampipe row (blocked)
+  count=  1  x=-309.0733mm  y=[-27.67*]  # * = beampipe row (blocked)
+  count=  1  x=-183.0773mm  y=[-27.67*]  # * = beampipe row (blocked)
+  count=  1  x= 183.0773mm  y=[-27.67*]  # * = beampipe row (blocked)
+  count=  1  x= 309.0733mm  y=[-27.67*]  # * = beampipe row (blocked)
+  count=  1  x=-298.6299mm  y=[-45.79*]  # * = beampipe row (blocked)
+  count=  1  x=-172.6339mm  y=[-45.79*]  # * = beampipe row (blocked)
+  count=  1  x= 172.6339mm  y=[-45.79*]  # * = beampipe row (blocked)
+  count=  1  x= 298.6299mm  y=[-45.79*]  # * = beampipe row (blocked)
+
+=== ED1  sensor_r_in=362.7872mm ===
+
+--- top (n=72 LECs within R_in) ---
+  count= 13  x=-132.4960mm  y=[57.75, 74.25, 90.75, 107.25, 123.75, 140.25, 156.75, 173.25, 189.75, 206.25, 288.75, 305.25, 321.75]
+  count= 13  x= 132.4960mm  y=[57.75, 74.25, 90.75, 107.25, 123.75, 140.25, 156.75, 173.25, 189.75, 206.25, 288.75, 305.25, 321.75]
+  count= 10  x=-258.4920mm  y=[57.75, 74.25, 90.75, 107.25, 123.75, 140.25, 156.75, 173.25, 189.75, 206.25]
+  count= 10  x= 258.4920mm  y=[57.75, 74.25, 90.75, 107.25, 123.75, 140.25, 156.75, 173.25, 189.75, 206.25]
+  count=  6  x=  69.4980mm  y=[222.75, 239.25, 255.75, 272.25, 338.25, 354.75]
+  count=  4  x=-195.4940mm  y=[222.75, 239.25, 255.75, 272.25]
+  count=  4  x= 195.4940mm  y=[222.75, 239.25, 255.75, 272.25]
+  count=  1  x=-297.1941mm  y=[41.25*]  # * = beampipe row (blocked)
+  count=  1  x=-171.1981mm  y=[41.25*]  # * = beampipe row (blocked)
+  count=  1  x= 171.1981mm  y=[41.25*]  # * = beampipe row (blocked)
+  count=  1  x= 297.1941mm  y=[41.25*]  # * = beampipe row (blocked)
+  count=  1  x=-306.1851mm  y=[24.75*]  # * = beampipe row (blocked)
+  count=  1  x=-180.1891mm  y=[24.75*]  # * = beampipe row (blocked)
+  count=  1  x= 180.1891mm  y=[24.75*]  # * = beampipe row (blocked)
+  count=  1  x= 306.1851mm  y=[24.75*]  # * = beampipe row (blocked)
+  count=  1  x=-307.2420mm  y=[8.25*]  # * = beampipe row (blocked)
+  count=  1  x=-181.2460mm  y=[8.25*]  # * = beampipe row (blocked)
+  count=  1  x= 181.2460mm  y=[8.25*]  # * = beampipe row (blocked)
+  count=  1  x= 307.2420mm  y=[8.25*]  # * = beampipe row (blocked)
+
+--- bottom (n=72 LECs within R_in) ---
+  count= 13  x=-132.4960mm  y=[-321.75, -305.25, -288.75, -206.25, -189.75, -173.25, -156.75, -140.25, -123.75, -107.25, -90.75, -74.25, -57.75]
+  count= 13  x= 132.4960mm  y=[-321.75, -305.25, -288.75, -206.25, -189.75, -173.25, -156.75, -140.25, -123.75, -107.25, -90.75, -74.25, -57.75]
+  count= 10  x=-258.4920mm  y=[-206.25, -189.75, -173.25, -156.75, -140.25, -123.75, -107.25, -90.75, -74.25, -57.75]
+  count= 10  x= 258.4920mm  y=[-206.25, -189.75, -173.25, -156.75, -140.25, -123.75, -107.25, -90.75, -74.25, -57.75]
+  count=  6  x=  69.4980mm  y=[-354.75, -338.25, -272.25, -255.75, -239.25, -222.75]
+  count=  4  x=-195.4940mm  y=[-272.25, -255.75, -239.25, -222.75]
+  count=  4  x= 195.4940mm  y=[-272.25, -255.75, -239.25, -222.75]
+  count=  1  x=-307.2420mm  y=[-8.25*]  # * = beampipe row (blocked)
+  count=  1  x=-181.2460mm  y=[-8.25*]  # * = beampipe row (blocked)
+  count=  1  x= 181.2460mm  y=[-8.25*]  # * = beampipe row (blocked)
+  count=  1  x= 307.2420mm  y=[-8.25*]  # * = beampipe row (blocked)
+  count=  1  x=-306.1851mm  y=[-24.75*]  # * = beampipe row (blocked)
+  count=  1  x=-180.1891mm  y=[-24.75*]  # * = beampipe row (blocked)
+  count=  1  x= 180.1891mm  y=[-24.75*]  # * = beampipe row (blocked)
+  count=  1  x= 306.1851mm  y=[-24.75*]  # * = beampipe row (blocked)
+  count=  1  x=-297.1941mm  y=[-41.25*]  # * = beampipe row (blocked)
+  count=  1  x=-171.1981mm  y=[-41.25*]  # * = beampipe row (blocked)
+  count=  1  x= 171.1981mm  y=[-41.25*]  # * = beampipe row (blocked)
+  count=  1  x= 297.1941mm  y=[-41.25*]  # * = beampipe row (blocked)
+
+=== ED0  sensor_r_in=185.2874mm ===
+
+--- top (n=14 LECs within R_in) ---
+  count=  4  x=  69.4980mm  y=[90.75, 107.25, 123.75, 140.25]
+  count=  2  x=-132.4960mm  y=[57.75, 74.25]
+  count=  2  x= 132.4960mm  y=[57.75, 74.25]
+  count=  1  x=-171.1981mm  y=[41.25*]  # * = beampipe row (blocked)
+  count=  1  x= 171.1981mm  y=[41.25*]  # * = beampipe row (blocked)
+  count=  1  x=-180.1891mm  y=[24.75*]  # * = beampipe row (blocked)
+  count=  1  x= 180.1891mm  y=[24.75*]  # * = beampipe row (blocked)
+  count=  1  x=-181.2460mm  y=[8.25*]  # * = beampipe row (blocked)
+  count=  1  x= 181.2460mm  y=[8.25*]  # * = beampipe row (blocked)
+
+--- bottom (n=14 LECs within R_in) ---
+  count=  4  x=  69.4980mm  y=[-140.25, -123.75, -107.25, -90.75]
+  count=  2  x=-132.4960mm  y=[-74.25, -57.75]
+  count=  2  x= 132.4960mm  y=[-74.25, -57.75]
+  count=  1  x=-181.2460mm  y=[-8.25*]  # * = beampipe row (blocked)
+  count=  1  x= 181.2460mm  y=[-8.25*]  # * = beampipe row (blocked)
+  count=  1  x=-180.1891mm  y=[-24.75*]  # * = beampipe row (blocked)
+  count=  1  x= 180.1891mm  y=[-24.75*]  # * = beampipe row (blocked)
+  count=  1  x=-171.1981mm  y=[-41.25*]  # * = beampipe row (blocked)
+  count=  1  x= 171.1981mm  y=[-41.25*]  # * = beampipe row (blocked)
+
+=== HD0  sensor_r_in=185.2874mm ===
+
+--- top (n=14 LECs within R_in) ---
+  count=  4  x=  69.4980mm  y=[90.75, 107.25, 123.75, 140.25]
+  count=  2  x=-132.4960mm  y=[57.75, 74.25]
+  count=  2  x= 132.4960mm  y=[57.75, 74.25]
+  count=  1  x=-171.1981mm  y=[41.25*]  # * = beampipe row (blocked)
+  count=  1  x= 171.1981mm  y=[41.25*]  # * = beampipe row (blocked)
+  count=  1  x=-180.1891mm  y=[24.75*]  # * = beampipe row (blocked)
+  count=  1  x= 180.1891mm  y=[24.75*]  # * = beampipe row (blocked)
+  count=  1  x=-181.2460mm  y=[8.25*]  # * = beampipe row (blocked)
+  count=  1  x= 181.2460mm  y=[8.25*]  # * = beampipe row (blocked)
+
+--- bottom (n=14 LECs within R_in) ---
+  count=  4  x=  69.4980mm  y=[-140.25, -123.75, -107.25, -90.75]
+  count=  2  x=-132.4960mm  y=[-74.25, -57.75]
+  count=  2  x= 132.4960mm  y=[-74.25, -57.75]
+  count=  1  x=-181.2460mm  y=[-8.25*]  # * = beampipe row (blocked)
+  count=  1  x= 181.2460mm  y=[-8.25*]  # * = beampipe row (blocked)
+  count=  1  x=-180.1891mm  y=[-24.75*]  # * = beampipe row (blocked)
+  count=  1  x= 180.1891mm  y=[-24.75*]  # * = beampipe row (blocked)
+  count=  1  x=-171.1981mm  y=[-41.25*]  # * = beampipe row (blocked)
+  count=  1  x= 171.1981mm  y=[-41.25*]  # * = beampipe row (blocked)
+
+=== HD1  sensor_r_in=362.7872mm ===
+
+--- top (n=72 LECs within R_in) ---
+  count= 13  x=-132.4960mm  y=[57.75, 74.25, 90.75, 107.25, 123.75, 140.25, 156.75, 173.25, 189.75, 206.25, 288.75, 305.25, 321.75]
+  count= 13  x= 132.4960mm  y=[57.75, 74.25, 90.75, 107.25, 123.75, 140.25, 156.75, 173.25, 189.75, 206.25, 288.75, 305.25, 321.75]
+  count= 10  x=-258.4920mm  y=[57.75, 74.25, 90.75, 107.25, 123.75, 140.25, 156.75, 173.25, 189.75, 206.25]
+  count= 10  x= 258.4920mm  y=[57.75, 74.25, 90.75, 107.25, 123.75, 140.25, 156.75, 173.25, 189.75, 206.25]
+  count=  6  x=  69.4980mm  y=[222.75, 239.25, 255.75, 272.25, 338.25, 354.75]
+  count=  4  x=-195.4940mm  y=[222.75, 239.25, 255.75, 272.25]
+  count=  4  x= 195.4940mm  y=[222.75, 239.25, 255.75, 272.25]
+  count=  1  x=-297.1941mm  y=[41.25*]  # * = beampipe row (blocked)
+  count=  1  x=-171.1981mm  y=[41.25*]  # * = beampipe row (blocked)
+  count=  1  x= 171.1981mm  y=[41.25*]  # * = beampipe row (blocked)
+  count=  1  x= 297.1941mm  y=[41.25*]  # * = beampipe row (blocked)
+  count=  1  x=-306.1851mm  y=[24.75*]  # * = beampipe row (blocked)
+  count=  1  x=-180.1891mm  y=[24.75*]  # * = beampipe row (blocked)
+  count=  1  x= 180.1891mm  y=[24.75*]  # * = beampipe row (blocked)
+  count=  1  x= 306.1851mm  y=[24.75*]  # * = beampipe row (blocked)
+  count=  1  x=-307.2420mm  y=[8.25*]  # * = beampipe row (blocked)
+  count=  1  x=-181.2460mm  y=[8.25*]  # * = beampipe row (blocked)
+  count=  1  x= 181.2460mm  y=[8.25*]  # * = beampipe row (blocked)
+  count=  1  x= 307.2420mm  y=[8.25*]  # * = beampipe row (blocked)
+
+--- bottom (n=72 LECs within R_in) ---
+  count= 13  x=-132.4960mm  y=[-321.75, -305.25, -288.75, -206.25, -189.75, -173.25, -156.75, -140.25, -123.75, -107.25, -90.75, -74.25, -57.75]
+  count= 13  x= 132.4960mm  y=[-321.75, -305.25, -288.75, -206.25, -189.75, -173.25, -156.75, -140.25, -123.75, -107.25, -90.75, -74.25, -57.75]
+  count= 10  x=-258.4920mm  y=[-206.25, -189.75, -173.25, -156.75, -140.25, -123.75, -107.25, -90.75, -74.25, -57.75]
+  count= 10  x= 258.4920mm  y=[-206.25, -189.75, -173.25, -156.75, -140.25, -123.75, -107.25, -90.75, -74.25, -57.75]
+  count=  6  x=  69.4980mm  y=[-354.75, -338.25, -272.25, -255.75, -239.25, -222.75]
+  count=  4  x=-195.4940mm  y=[-272.25, -255.75, -239.25, -222.75]
+  count=  4  x= 195.4940mm  y=[-272.25, -255.75, -239.25, -222.75]
+  count=  1  x=-307.2420mm  y=[-8.25*]  # * = beampipe row (blocked)
+  count=  1  x=-181.2460mm  y=[-8.25*]  # * = beampipe row (blocked)
+  count=  1  x= 181.2460mm  y=[-8.25*]  # * = beampipe row (blocked)
+  count=  1  x= 307.2420mm  y=[-8.25*]  # * = beampipe row (blocked)
+  count=  1  x=-306.1851mm  y=[-24.75*]  # * = beampipe row (blocked)
+  count=  1  x=-180.1891mm  y=[-24.75*]  # * = beampipe row (blocked)
+  count=  1  x= 180.1891mm  y=[-24.75*]  # * = beampipe row (blocked)
+  count=  1  x= 306.1851mm  y=[-24.75*]  # * = beampipe row (blocked)
+  count=  1  x=-297.1941mm  y=[-41.25*]  # * = beampipe row (blocked)
+  count=  1  x=-171.1981mm  y=[-41.25*]  # * = beampipe row (blocked)
+  count=  1  x= 171.1981mm  y=[-41.25*]  # * = beampipe row (blocked)
+  count=  1  x= 297.1941mm  y=[-41.25*]  # * = beampipe row (blocked)
+
+=== HD2  sensor_r_in=385.2894mm ===
+
+--- top (n=81 LECs within R_in) ---
+  count= 10  x=-132.4960mm  y=[150.75, 167.25, 183.75, 200.25, 216.75, 233.25, 249.75, 315.75, 332.25, 348.75]
+  count= 10  x= 132.4960mm  y=[150.75, 167.25, 183.75, 200.25, 216.75, 233.25, 249.75, 315.75, 332.25, 348.75]
+  count=  9  x=  69.4980mm  y=[63.48, 80.79, 99.57, 116.48, 134.25, 266.25, 282.75, 299.25, 365.25]
+  count=  8  x=-195.4940mm  y=[63.48, 80.79, 99.57, 116.48, 134.25, 266.25, 282.75, 299.25]
+  count=  8  x= 195.4940mm  y=[63.48, 80.79, 99.57, 116.48, 134.25, 266.25, 282.75, 299.25]
+  count=  7  x=-258.4920mm  y=[150.75, 167.25, 183.75, 200.25, 216.75, 233.25, 249.75]
+  count=  7  x= 258.4920mm  y=[150.75, 167.25, 183.75, 200.25, 216.75, 233.25, 249.75]
+  count=  5  x=-321.4900mm  y=[63.48, 80.79, 99.57, 116.48, 134.25]
+  count=  5  x= 321.4900mm  y=[63.48, 80.79, 99.57, 116.48, 134.25]
+  count=  1  x=-305.5873mm  y=[44.96*]  # * = beampipe row (blocked)
+  count=  1  x=-179.5913mm  y=[44.96*]  # * = beampipe row (blocked)
+  count=  1  x= 173.3193mm  y=[44.96*]  # * = beampipe row (blocked)
+  count=  1  x= 299.3153mm  y=[44.96*]  # * = beampipe row (blocked)
+  count=  1  x=-314.6204mm  y=[27.25*]  # * = beampipe row (blocked)
+  count=  1  x=-188.6244mm  y=[27.25*]  # * = beampipe row (blocked)
+  count=  1  x= 182.3524mm  y=[27.25*]  # * = beampipe row (blocked)
+  count=  1  x= 308.3484mm  y=[27.25*]  # * = beampipe row (blocked)
+  count=  1  x=-315.7640mm  y=[9.00*]  # * = beampipe row (blocked)
+  count=  1  x=-189.7680mm  y=[9.00*]  # * = beampipe row (blocked)
+  count=  1  x= 183.4960mm  y=[9.00*]  # * = beampipe row (blocked)
+  count=  1  x= 309.4920mm  y=[9.00*]  # * = beampipe row (blocked)
+
+--- bottom (n=80 LECs within R_in) ---
+  count= 10  x=  69.4980mm  y=[-366.75, -300.75, -284.25, -267.75, -251.25, -134.50, -117.79, -98.89, -81.79, -63.29]
+  count=  9  x=-195.4940mm  y=[-300.75, -284.25, -267.75, -251.25, -134.50, -117.79, -98.89, -81.79, -63.29]
+  count=  9  x= 195.4940mm  y=[-300.75, -284.25, -267.75, -251.25, -134.50, -117.79, -98.89, -81.79, -63.29]
+  count=  9  x=-132.4960mm  y=[-350.25, -333.75, -317.25, -234.75, -218.25, -201.75, -185.25, -168.75, -152.25]
+  count=  9  x= 132.4960mm  y=[-350.25, -333.75, -317.25, -234.75, -218.25, -201.75, -185.25, -168.75, -152.25]
+  count=  6  x=-258.4920mm  y=[-234.75, -218.25, -201.75, -185.25, -168.75, -152.25]
+  count=  6  x= 258.4920mm  y=[-234.75, -218.25, -201.75, -185.25, -168.75, -152.25]
+  count=  5  x=-321.4900mm  y=[-134.50, -117.79, -98.89, -81.79, -63.29]
+  count=  5  x= 321.4900mm  y=[-134.50, -117.79, -98.89, -81.79, -63.29]
+  count=  1  x=-315.7640mm  y=[-9.79*]  # * = beampipe row (blocked)
+  count=  1  x=-189.7680mm  y=[-9.79*]  # * = beampipe row (blocked)
+  count=  1  x= 183.4960mm  y=[-9.79*]  # * = beampipe row (blocked)
+  count=  1  x= 309.4920mm  y=[-9.79*]  # * = beampipe row (blocked)
+  count=  1  x=-314.5127mm  y=[-27.69*]  # * = beampipe row (blocked)
+  count=  1  x=-188.5167mm  y=[-27.69*]  # * = beampipe row (blocked)
+  count=  1  x= 182.2447mm  y=[-27.69*]  # * = beampipe row (blocked)
+  count=  1  x= 308.2407mm  y=[-27.69*]  # * = beampipe row (blocked)
+  count=  1  x=-304.8557mm  y=[-45.79*]  # * = beampipe row (blocked)
+  count=  1  x=-178.8597mm  y=[-45.79*]  # * = beampipe row (blocked)
+  count=  1  x= 172.5877mm  y=[-45.79*]  # * = beampipe row (blocked)
+  count=  1  x= 298.5837mm  y=[-45.79*]  # * = beampipe row (blocked)
+
+=== HD3  sensor_r_in=387.7944mm ===
+
+--- top (n=82 LECs within R_in) ---
+  count= 10  x=  69.4980mm  y=[72.54, 90.01, 108.69, 125.88, 264.75, 281.25, 297.75, 314.25, 363.75, 380.25]
+  count=  9  x=-132.4960mm  y=[144.76, 161.67, 180.76, 197.38, 215.25, 231.75, 248.25, 330.75, 347.25]
+  count=  9  x= 132.4960mm  y=[144.76, 161.67, 180.76, 197.38, 215.25, 231.75, 248.25, 330.75, 347.25]
+  count=  8  x=-195.4940mm  y=[72.54, 90.01, 108.69, 125.88, 264.75, 281.25, 297.75, 314.25]
+  count=  8  x= 195.4940mm  y=[72.54, 90.01, 108.69, 125.88, 264.75, 281.25, 297.75, 314.25]
+  count=  7  x=-258.4920mm  y=[144.76, 161.67, 180.76, 197.38, 215.25, 231.75, 248.25]
+  count=  7  x= 258.4920mm  y=[144.76, 161.67, 180.76, 197.38, 215.25, 231.75, 248.25]
+  count=  4  x=-321.4900mm  y=[72.54, 90.01, 108.69, 125.88]
+  count=  4  x= 321.4900mm  y=[72.54, 90.01, 108.69, 125.88]
+  count=  2  x=-326.9624mm  y=[0.00*, 18.04*]  # * = beampipe row (blocked)
+  count=  2  x=-200.9665mm  y=[0.00*, 18.04*]  # * = beampipe row (blocked)
+  count=  2  x= 183.4945mm  y=[0.00*, 18.04*]  # * = beampipe row (blocked)
+  count=  2  x= 309.4905mm  y=[0.00*, 18.04*]  # * = beampipe row (blocked)
+  count=  1  x=-309.9123mm  y=[54.07*]  # * = beampipe row (blocked)
+  count=  1  x=-183.9163mm  y=[54.07*]  # * = beampipe row (blocked)
+  count=  1  x= 166.4443mm  y=[54.07*]  # * = beampipe row (blocked)
+  count=  1  x= 292.4403mm  y=[54.07*]  # * = beampipe row (blocked)
+  count=  1  x=-323.1016mm  y=[36.31*]  # * = beampipe row (blocked)
+  count=  1  x=-197.1056mm  y=[36.31*]  # * = beampipe row (blocked)
+  count=  1  x= 179.6336mm  y=[36.31*]  # * = beampipe row (blocked)
+  count=  1  x= 305.6296mm  y=[36.31*]  # * = beampipe row (blocked)
+
+--- bottom (n=78 LECs within R_in) ---
+  count= 10  x=  69.4980mm  y=[-380.25, -363.75, -314.25, -297.75, -281.25, -264.75, -125.88, -108.69, -90.01, -72.54]
+  count=  9  x=-132.4960mm  y=[-347.25, -330.75, -248.25, -231.75, -215.29, -197.38, -180.76, -161.67, -144.76]
+  count=  9  x= 132.4960mm  y=[-347.25, -330.75, -248.25, -231.75, -215.29, -197.38, -180.76, -161.67, -144.76]
+  count=  8  x=-195.4940mm  y=[-314.25, -297.75, -281.25, -264.75, -125.88, -108.69, -90.01, -72.54]
+  count=  8  x= 195.4940mm  y=[-314.25, -297.75, -281.25, -264.75, -125.88, -108.69, -90.01, -72.54]
+  count=  7  x=-258.4920mm  y=[-248.25, -231.75, -215.29, -197.38, -180.76, -161.67, -144.76]
+  count=  7  x= 258.4920mm  y=[-248.25, -231.75, -215.29, -197.38, -180.76, -161.67, -144.76]
+  count=  4  x=-321.4900mm  y=[-125.88, -108.69, -90.01, -72.54]
+  count=  4  x= 321.4900mm  y=[-125.88, -108.69, -90.01, -72.54]
+  count=  1  x=-326.9609mm  y=[-18.04*]  # * = beampipe row (blocked)
+  count=  1  x=-200.9649mm  y=[-18.04*]  # * = beampipe row (blocked)
+  count=  1  x= 183.4929mm  y=[-18.04*]  # * = beampipe row (blocked)
+  count=  1  x= 309.4889mm  y=[-18.04*]  # * = beampipe row (blocked)
+  count=  1  x=-323.1016mm  y=[-36.31*]  # * = beampipe row (blocked)
+  count=  1  x=-197.1056mm  y=[-36.31*]  # * = beampipe row (blocked)
+  count=  1  x= 179.6336mm  y=[-36.31*]  # * = beampipe row (blocked)
+  count=  1  x= 305.6296mm  y=[-36.31*]  # * = beampipe row (blocked)
+  count=  1  x=-309.9123mm  y=[-54.07*]  # * = beampipe row (blocked)
+  count=  1  x=-183.9163mm  y=[-54.07*]  # * = beampipe row (blocked)
+  count=  1  x= 166.4443mm  y=[-54.07*]  # * = beampipe row (blocked)
+  count=  1  x= 292.4403mm  y=[-54.07*]  # * = beampipe row (blocked)
+
+=== HD4  sensor_r_in=387.3072mm ===
+
+--- top (n=79 LECs within R_in) ---
+  count=  9  x=  69.4980mm  y=[72.54, 90.16, 108.73, 126.13, 252.76, 269.29, 287.25, 303.75, 369.75]
+  count=  9  x=-132.4960mm  y=[144.79, 161.97, 180.79, 197.75, 216.79, 233.53, 320.25, 336.75, 353.25]
+  count=  9  x= 132.4960mm  y=[144.79, 161.97, 180.79, 197.75, 216.79, 233.53, 320.25, 336.75, 353.25]
+  count=  8  x=-195.4940mm  y=[72.54, 90.16, 108.73, 126.13, 252.76, 269.29, 287.25, 303.75]
+  count=  8  x= 195.4940mm  y=[72.54, 90.16, 108.73, 126.13, 252.76, 269.29, 287.25, 303.75]
+  count=  6  x=-258.4920mm  y=[144.79, 161.97, 180.79, 197.75, 216.79, 233.53]
+  count=  6  x= 258.4920mm  y=[144.79, 161.97, 180.79, 197.75, 216.79, 233.53]
+  count=  4  x=-321.4900mm  y=[72.54, 90.16, 108.73, 126.13]
+  count=  4  x= 321.4900mm  y=[72.54, 90.16, 108.73, 126.13]
+  count=  2  x=-338.1626mm  y=[0.00*, 18.06*]  # * = beampipe row (blocked)
+  count=  2  x=-212.1666mm  y=[0.00*, 18.06*]  # * = beampipe row (blocked)
+  count=  2  x= 183.4946mm  y=[0.00*, 18.06*]  # * = beampipe row (blocked)
+  count=  2  x= 309.4905mm  y=[0.00*, 18.06*]  # * = beampipe row (blocked)
+  count=  1  x=-323.5912mm  y=[54.14*]  # * = beampipe row (blocked)
+  count=  1  x=-197.5952mm  y=[54.14*]  # * = beampipe row (blocked)
+  count=  1  x= 168.9232mm  y=[54.14*]  # * = beampipe row (blocked)
+  count=  1  x= 294.9192mm  y=[54.14*]  # * = beampipe row (blocked)
+  count=  1  x=-334.7419mm  y=[36.30*]  # * = beampipe row (blocked)
+  count=  1  x=-208.7459mm  y=[36.30*]  # * = beampipe row (blocked)
+  count=  1  x= 180.0739mm  y=[36.30*]  # * = beampipe row (blocked)
+  count=  1  x= 306.0699mm  y=[36.30*]  # * = beampipe row (blocked)
+
+--- bottom (n=75 LECs within R_in) ---
+  count=  9  x=  69.4980mm  y=[-369.75, -303.75, -287.29, -269.29, -252.76, -126.13, -108.73, -90.16, -72.54]
+  count=  9  x=-132.4960mm  y=[-353.25, -336.75, -320.25, -233.53, -216.79, -197.75, -180.79, -161.97, -144.79]
+  count=  9  x= 132.4960mm  y=[-353.25, -336.75, -320.25, -233.53, -216.79, -197.75, -180.79, -161.97, -144.79]
+  count=  8  x=-195.4940mm  y=[-303.75, -287.29, -269.29, -252.76, -126.13, -108.73, -90.16, -72.54]
+  count=  8  x= 195.4940mm  y=[-303.75, -287.29, -269.29, -252.76, -126.13, -108.73, -90.16, -72.54]
+  count=  6  x=-258.4920mm  y=[-233.53, -216.79, -197.75, -180.79, -161.97, -144.79]
+  count=  6  x= 258.4920mm  y=[-233.53, -216.79, -197.75, -180.79, -161.97, -144.79]
+  count=  4  x=-321.4900mm  y=[-126.13, -108.73, -90.16, -72.54]
+  count=  4  x= 321.4900mm  y=[-126.13, -108.73, -90.16, -72.54]
+  count=  1  x=-338.1611mm  y=[-18.06*]  # * = beampipe row (blocked)
+  count=  1  x=-212.1651mm  y=[-18.06*]  # * = beampipe row (blocked)
+  count=  1  x= 183.4931mm  y=[-18.06*]  # * = beampipe row (blocked)
+  count=  1  x= 309.4891mm  y=[-18.06*]  # * = beampipe row (blocked)
+  count=  1  x=-334.7419mm  y=[-36.30*]  # * = beampipe row (blocked)
+  count=  1  x=-208.7459mm  y=[-36.30*]  # * = beampipe row (blocked)
+  count=  1  x= 180.0739mm  y=[-36.30*]  # * = beampipe row (blocked)
+  count=  1  x= 306.0699mm  y=[-36.30*]  # * = beampipe row (blocked)
+  count=  1  x=-323.5912mm  y=[-54.14*]  # * = beampipe row (blocked)
+  count=  1  x=-197.5952mm  y=[-54.14*]  # * = beampipe row (blocked)
+  count=  1  x= 168.9232mm  y=[-54.14*]  # * = beampipe row (blocked)
+  count=  1  x= 294.9192mm  y=[-54.14*]  # * = beampipe row (blocked)
